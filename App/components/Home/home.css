@@ -8,6 +8,7 @@
   background-color: #f2f2f2;
   position: sticky;
   top: 50px;
+  z-index: 99;
 }
 .filter {
   margin-left: 16px;
@@ -21,6 +22,9 @@
   font-size: 18px;
   font-weight: 600;
   padding: 16px;
+  position: sticky;
+  top: 80px;
+  background-color: white;
 }
 .featured-image img {
   height: 400px;

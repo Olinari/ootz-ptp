@@ -53,6 +53,7 @@ export const home = (state, setState) => {
           </div>
        </div>
     </div>
+    <div class="category-title">המלצות שלנו</div>
     <div class="category-caousel">
        <div class="carousel flex">
           <div class="card trip">
@@ -74,6 +75,28 @@ export const home = (state, setState) => {
        </div>
     </div>
  </div>
+ <div class="category-title">טיולים מומלצים</div>
+ <div class="category-caousel">
+    <div class="carousel flex">
+       <div class="card trip">
+          <div class="featured-image">
+             <img src="./Images/tours/jerusalem/jlm1.png">
+          </div>
+          <div class="trip details">
+             lorem
+          </div>
+       </div>
+       <div class="card trip">
+          <div class="featured-image">
+             <img src="./Images/tours/jerusalem/jlm1.png">
+          </div>
+          <div class="trip details">
+             lorem
+          </div>
+       </div>
+    </div>
+ </div>
+</div>
  </div>
     `
   );

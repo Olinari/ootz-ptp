@@ -11,7 +11,7 @@
   border-bottom: 1px solid #e6e6e6;
   color: #162d3d;
   padding: 0px 16px 0px 16px;
-  z-index: 9;
+  z-index: 99;
 }
 
 .topbar .left-side {
