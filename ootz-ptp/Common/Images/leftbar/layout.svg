@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
-    <title>layout</title>
-    <desc>Created with Sketch.</desc>
-    <g id="layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M8,11 L7.999,22 L7,22 C4.790861,22 3,20.209139 3,18 L3,11 L8,11 Z M23,11 L23,18 C23,20.209139 21.209139,22 19,22 L9.999,22 L10,11 L23,11 Z M19,4 C21.209139,4 23,5.790861 23,8 L23,9 L3,9 L3,8 C3,5.790861 4.790861,4 7,4 L19,4 Z" fill="#000000"></path>
-    </g>
-</svg>

@@ -1,6 +1,6 @@
-import { components } from "./components/components.js";
-import { Controller } from "../Controller/Controller.js";
-import { setState, State } from "./state.js";
+import { components } from "./components/Components.js";
+
+import { setState, State } from "./State.js";
 
 new (function App() {
   const stateObj = State.apply(this, []);
