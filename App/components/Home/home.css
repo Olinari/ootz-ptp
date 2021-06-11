@@ -13,6 +13,7 @@
 .filter {
   margin-left: 16px;
   font-size: 14px;
+  align-items: center;
 }
 .category-caousel {
   width: 100vw;
@@ -38,7 +39,7 @@
   height: 50px;
   width: 100%;
 }
-.filter span:not(:last-child) {
+.filters span:not(:last-of-type) {
   border-left: 1px solid #0000001c;
   padding-left: 16px;
 }

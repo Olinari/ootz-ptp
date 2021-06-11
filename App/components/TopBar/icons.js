@@ -14,7 +14,7 @@ export const logo = `<svg width="31" height="32" viewBox="0 0 31 32" fill="none"
     </defs>
     </svg>`;
 
-export const menu = `<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+export const menu = `<svg width="20"  height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="19" height="1.5" transform="matrix(-1 0 0 1 19.005 0.0798035)" fill="black"/>
 <rect width="19" height="1.5" transform="matrix(-1 0 0 1 19.005 6.16238)" fill="black"/>
 <rect width="19" height="1.5" transform="matrix(-1 0 0 1 19.005 12.8125)" fill="black"/>
