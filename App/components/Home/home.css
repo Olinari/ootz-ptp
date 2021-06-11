@@ -13,8 +13,23 @@
   margin-left: 16px;
   font-size: 14px;
 }
+.category-caousel {
+  width: 100vw;
+  overflow-x: scroll;
+}
 .category-title {
   font-size: 18px;
   font-weight: 600;
   padding: 16px;
+}
+.featured-image img {
+  height: 400px;
+  max-height: 50vh;
+}
+.card.trip {
+  border: 1px solid #0000001c;
+}
+.card.trip .trip-details {
+  height: 50px;
+  width: 100%;
 }

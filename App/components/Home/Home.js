@@ -24,24 +24,57 @@ export const home = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `
-<div class="home">
-<div class="filters flex">
-<span id="location" class="filter">ירושלים והסביבה</span>
-<span id="traveler-type" class="filter">עם ילדים </span>
-<span id="other" class="filter">כניסה למים</span>
-</div>
-
-<div class="trips-content">
-<div class="category-caousel">
-<div class="category-title">טיולים מומלצים</div>
-<div class="carousel flex">
-
-
-
-</div>
-</div>
-</div>
-</div>
+    <div class="home">
+    <div class="filters flex">
+       <span id="location" class="filter">ירושלים והסביבה</span>
+       <span id="traveler-type" class="filter">עם ילדים </span>
+       <span id="other" class="filter">כניסה למים</span>
+    </div>
+    <div class="trips-content">
+       <div class="category-title">טיולים מומלצים</div>
+       <div class="category-caousel">
+          <div class="carousel flex">
+             <div class="card trip">
+                <div class="featured-image">
+                   <img src="./Images/tours/jerusalem/jlm1.png">
+                </div>
+                <div class="trip details">
+                   lorem
+                </div>
+             </div>
+             <div class="card trip">
+                <div class="featured-image">
+                   <img src="./Images/tours/jerusalem/jlm1.png">
+                </div>
+                <div class="trip details">
+                   lorem
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div class="category-caousel">
+       <div class="carousel flex">
+          <div class="card trip">
+             <div class="featured-image">
+                <img src="./Images/tours/jerusalem/jlm1.png">
+             </div>
+             <div class="trip details">
+                lorem
+             </div>
+          </div>
+          <div class="card trip">
+             <div class="featured-image">
+                <img src="./Images/tours/jerusalem/jlm1.png">
+             </div>
+             <div class="trip details">
+                lorem
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ </div>
     `
   );
 };
