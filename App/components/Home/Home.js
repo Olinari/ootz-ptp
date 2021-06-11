@@ -34,29 +34,31 @@ export const home = (state, setState) => {
        <div class="btn-small absolute">שינוי</div>
     </div>
     <div class="trips-content">
-       <div class="category-title">טיולים מומלצים</div>
+       <div class="category-title">המומלצים שלנו</div>
        <div class="category-caousel">
           <div class="carousel flex">
              <div class="card trip">
                 <div class="featured-image">
                    <img src="./Images/tours/jerusalem/jlm1.png">
                 </div>
-                <div class="trip details">
-                   lorem
+                <div class="trip-details">
+                <div class="trip-title">
+                   חוויה ירושלמית
+                </div>
                 </div>
              </div>
              <div class="card trip">
                 <div class="featured-image">
                    <img src="./Images/tours/jerusalem/jlm1.png">
                 </div>
-                <div class="trip details">
+                <div class="trip-details">
                    lorem
                 </div>
              </div>
           </div>
        </div>
     </div>
-    <div class="category-title">המלצות שלנו</div>
+    <div class="category-title">מובילי דרך</div>
     <div class="category-caousel">
        <div class="carousel flex">
           <div class="card trip">
@@ -71,7 +73,7 @@ export const home = (state, setState) => {
              <div class="featured-image">
                 <img src="./Images/tours/jerusalem/jlm1.png">
              </div>
-             <div class="trip details">
+             <div class="trip-details">
                 lorem
              </div>
           </div>
