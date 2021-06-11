@@ -26,9 +26,11 @@ export const home = (state, setState) => {
     `
     <div class="home">
     <div class="filters flex align-center">
+    <div class="container flex align-center">
        <span id="location" class="filter flex">${icons.location}ירושלים והסביבה</span>
        <span id="traveler-type" class="filter">${icons.travelerType}עם ילדים </span>
        <span id="other" class="filter">${icons.water}כניסה למים</span>
+       </div>
        <div class="btn-small absolute">שינוי</div>
     </div>
     <div class="trips-content">

@@ -10,10 +10,15 @@
   top: 50px;
   z-index: 99;
 }
+.filters .container {
+  width: calc(100% - 70px) !important;
+  overflow: scroll;
+}
 .filter {
   margin-left: 16px;
-  font-size: 14px;
+  font-size: 12px;
   align-items: center;
+  white-space: nowrap;
 }
 .category-caousel {
   width: 100vw;
