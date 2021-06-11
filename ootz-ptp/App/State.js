@@ -1,15 +1,6 @@
-import { Actions } from "./Actions.js";
+import { Actions } from "./actions.js";
 
-export function State(
-  state = {
-    strips: {
-      0: { top: "60px", originalTop: "60px" },
-      1: { top: "660px", originalTop: "660px" },
-      2: { top: "1260px", originalTop: "1260px" },
-    },
-    pagesCounter: 0,
-  }
-) {
+export function State(state = {}) {
   class PubSub {
     constructor() {
       this.events = {};
