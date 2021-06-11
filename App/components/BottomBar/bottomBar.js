@@ -1,7 +1,7 @@
 import * as icons from "./icons.js";
 console.log(icons);
 //Append Styles
-var href = "../../App/components/BottomBar/bottomBar.css";
+var href = "../App/components/BottomBar/bottomBar.css";
 const exists = false;
 document.querySelectorAll("link").forEach((link) => {
   if (link.getAttribute("href") === href) {
