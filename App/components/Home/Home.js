@@ -1,7 +1,7 @@
 import * as icons from "./icons.js";
 console.log(icons);
 //Append Styles
-var href = "../components/TopBar/top-bar.css";
+var href = "../App/components/TopBar/top-bar.css";
 const exists = false;
 document.querySelectorAll("link").forEach((link) => {
   if (link.getAttribute("href") === href) {
@@ -25,21 +25,9 @@ export const topBar = (state, setState) => {
     "afterbegin",
     `
 <div class="Home">
-
-  <div class="left-side">
-  ${icons.menu}
-  </div>
-
-  <div class="middle-side flex row align-center">
-  <div class="logo">
- ${icons.logo}
+<div class="trip-caousel">
+<div class="title"><
 </div>
-  </div>
-
-  <div class="right-side flex row align-center">
-  ${icons.search}
-  </div>
-  </div>
 </div>
     `
   );
