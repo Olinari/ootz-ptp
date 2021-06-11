@@ -25,11 +25,22 @@ export const home = (state, setState) => {
     "afterbegin",
     `
 <div class="home">
-<div class="category-caousel">
-<div class="title">טיולים מומלצים</div>
-<div class="carousel flex"></div>
+<div class="filters flex">
+<span id="location" class="filter">ירושלים והסביבה</span>
+<span id="traveler-type" class="filter">עם ילדים </span>
+<span id="other" class="filter">כניסה למים</span>
 </div>
 
+<div class="trips-content">
+<div class="category-caousel">
+<div class="category-title">טיולים מומלצים</div>
+<div class="carousel flex">
+
+
+
+</div>
+</div>
+</div>
 </div>
     `
   );
