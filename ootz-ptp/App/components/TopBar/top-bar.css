@@ -1,0 +1,22 @@
+.topbar {
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #162d3d;
+  padding: 0px 3px 0px 10px;
+  z-index: -1;
+  font-family: "Madefor";
+  z-index: 9;
+}
+
+.topbar .left-side {
+  display: flex;
+  justify-content: space-arround;
+}

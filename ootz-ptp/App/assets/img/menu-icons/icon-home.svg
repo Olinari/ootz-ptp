@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.997,12.554 C13.997,12.832 13.851,13 13.57,13 L10.997,13 L10.997,8 L5.997,8 L5.997,13 L3.425,13 C3.144,13 2.997,12.832 2.997,12.554 L2.997,5.996 L8.497,1.414 L13.997,5.996 L13.997,12.554 Z M6.997,13 L9.997,13 L9.997,9 L6.997,9 L6.997,13 Z M8.5,0 L0,7 L1.997,7 L1.997,12.554 C1.997,13.39 2.585,14 3.425,14 L13.57,14 C14.41,14 14.997,13.39 14.997,12.554 L14.997,7 L17,7 L8.5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Menu-Manager" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-Item-/-Normal--Copy" transform="translate(-69.000000, -3.000000)">
+            <g id="Icon" transform="translate(69.000000, 3.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000" xlink:href="#path-1"></use>
+                <g id="Foundations-/-3.-Colors-/-01-Primary-/-D2" mask="url(#mask-2)" fill="#2B5672">
+                    <g transform="translate(-1.000000, -3.000000)" id="D2">
+                        <rect x="0" y="0" width="20" height="20"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

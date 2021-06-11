@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="18" viewBox="0 0 24 18" class="symbol symbol-topBarNewMobile btn-symbol">
+  <defs>
+    <path id="top-bar-mobile-icon-a" d="M15 0c1.1 0 2 .9 2 2v13c0 1.1-.9 2-2 2H9c-1.1 0-2-.9-2-2V2c0-1.1.9-2 2-2h6zm1 15V2c0-.55-.45-1-1-1H9c-.55 0-1 .45-1 1v13c0 .55.45 1 1 1h6c.55 0 1-.45 1-1zm-8-1v-1h8v1H8z"></path>
+  </defs>
+  <use fill-rule="evenodd" xlink:href="#top-bar-mobile-icon-a"></use>
+</svg>

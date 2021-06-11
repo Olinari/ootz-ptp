@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="89" viewBox="0 0 75 89" class="symbol symbol-leftBarButtonEarMiddle ear ear-middle">
+  <defs>
+    <filter id="leftBarButtonEarMdShadow" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.581"></feGaussianBlur>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.0862745098 0 0 0 0 0.176470588 0 0 0 0 0.239215686 0 0 0 0.266 0"></feColorMatrix>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="#000000" d="M66.998 3c-1.534 12.164-8.657 16.407-18.208 16.698-.328-.011-17.954-.013-17.954-.013v.009c-13.179.095-23.837 11.089-23.837 24.261 0 13.232 10.752 23.709 24.012 23.709-4.321 0 14.639.043 14.639.043 9.05.473 19.599 3.744 21.348 19.296V3z" filter="url(#leftBarButtonEarMdShadow)"></path>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="18" viewBox="0 0 24 18" class="symbol symbol-topBarNewDesktop btn-symbol">
+  <defs>
+    <path id="top-bar-desktop-icon-a" d="M18 2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h12zm0 1H6c-.551 0-1 .449-1 1v8c0 .551.449 1 1 1h12c.551 0 1-.449 1-1V4c0-.551-.449-1-1-1zm-4.207 13l1.208 1.037H9L10.257 16h3.537zM5 11v-1h14v1H5z"></path>
+  </defs>
+  <use fill-rule="evenodd" xlink:href="#top-bar-desktop-icon-a"></use>
+</svg>

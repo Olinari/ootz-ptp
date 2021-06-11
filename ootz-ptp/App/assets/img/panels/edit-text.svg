@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="574px" viewBox="0 0 288 574" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,85 L288,85 L288,566 C288,570.418278 284.418278,574 280,574 L8,574 C3.581722,574 5.41083001e-16,570.418278 0,566 L0,85 L0,85 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="288" height="1"></rect>
+        <rect id="path-5" x="0" y="0" width="288" height="1"></rect>
+        <rect id="path-7" x="0" y="0" width="288" height="1"></rect>
+        <rect id="path-9" x="0" y="0" width="288" height="1"></rect>
+        <path d="M20.0001683,6 L20.0001683,20 L18.0001683,20 L18.0001683,6 L20.0001683,6 Z M17.0001683,6 L17.0001683,20 L15.0001683,20 L15.0001683,12 L13.6951683,12 C11.8781683,12 10.4041683,10.818 10.4041683,9 C10.4041683,7.182 11.8781683,6 13.6951683,6 L13.6951683,6 L17.0001683,6 Z M9.60716831,14.205 L13.0001683,17 L9.60716831,19.795 C9.42616831,19.934 9.21316831,20 9.00116831,20 C8.69916831,20 8.40216831,19.864 8.20516831,19.606 C7.87016831,19.168 7.95416831,18.54 8.39316831,18.205 L10.0001683,17 L8.39316831,15.795 C7.95416831,15.46 7.87016831,14.832 8.20516831,14.394 C8.54016831,13.955 9.16716831,13.868 9.60716831,14.205 Z" id="path-11"></path>
+        <path d="M22.0000964,18 L22.0000964,20 L9.00009637,20 L9.00009637,18 L22.0000964,18 Z M22.0000964,15 L22.0000964,17 L15.0000964,17 L15.0000964,15 L22.0000964,15 Z M9.59209637,10.0729 L13.0000964,12.9999 L9.59209637,15.6869 C9.41409637,15.8169 9.20609637,15.8799 9.00109637,15.8799 C8.69309637,15.8799 8.39009637,15.7379 8.19409637,15.4719 C7.86709637,15.0259 7.96309637,14.4009 8.40809637,14.0729 L10.0000964,12.9999 L8.40809637,11.6869 C7.96309637,11.3589 7.86709637,10.7339 8.19409637,10.2879 C8.52109637,9.8439 9.14609637,9.7459 9.59209637,10.0729 Z M22.0000964,12 L22.0000964,14 L15.0000964,14 L15.0000964,12 L22.0000964,12 Z M22.0000964,9 L22.0000964,11 L15.0000964,11 L15.0000964,9 L22.0000964,9 Z M22.0000964,6 L22.0000964,8 L9.00009637,8 L9.00009637,6 L22.0000964,6 Z" id="path-13"></path>
+        <path d="M21.9998,18 L21.9998,20 L8.9998,20 L8.9998,18 L21.9998,18 Z M21.9998,15 L21.9998,17 L14.9998,17 L14.9998,15 L21.9998,15 Z M12.676,10.2879 C13.002,10.7339 12.906,11.3589 12.461,11.6869 L11,12.9999 L12.461,14.0729 C12.906,14.4009 13.002,15.0259 12.676,15.4719 C12.479,15.7379 12.176,15.8799 11.868,15.8799 C11.663,15.8799 11.456,15.8179 11.277,15.6869 L8,12.9999 L11.277,10.0729 C11.723,9.7479 12.347,9.8429 12.676,10.2879 Z M21.9998,12 L21.9998,14 L14.9998,14 L14.9998,12 L21.9998,12 Z M21.9998,9 L21.9998,11 L14.9998,11 L14.9998,9 L21.9998,9 Z M21.9998,6 L21.9998,8 L8.9998,8 L8.9998,6 L21.9998,6 Z" id="path-15"></path>
+        <path d="M4,5 L4,4 L3,4 L3,3 L2,3 L2,2 L1,2 L1,1 L0,1 L0,0 L2,0 L2,1 L3,1 L3,2 L4,2 L4,3 L5,3 L5,4 L6,4 L6,3 L7,3 L7,2 L8,2 L8,1 L9,1 L9,0 L11,0 L11,1 L10,1 L10,2 L9,2 L9,3 L8,3 L8,4 L7,4 L7,5 L6,5 L6,6 L5,6 L5,5 L4,5 Z" id="path-17"></path>
+        <path d="M23,18 L23,20 L13,20 L13,18 L23,18 Z M11,17 L11,20 L8,20 L8,17 L11,17 Z M23,12 L23,14 L13,14 L13,12 L23,12 Z M11,11 L11,14 L8,14 L8,11 L11,11 Z M23,6 L23,8 L13,8 L13,6 L23,6 Z M11,5 L11,8 L8,8 L8,5 L11,5 Z" id="path-19"></path>
+        <path d="M4,5 L4,4 L3,4 L3,3 L2,3 L2,2 L1,2 L1,1 L0,1 L0,0 L2,0 L2,1 L3,1 L3,2 L4,2 L4,3 L5,3 L5,4 L6,4 L6,3 L7,3 L7,2 L8,2 L8,1 L9,1 L9,0 L11,0 L11,1 L10,1 L10,2 L9,2 L9,3 L8,3 L8,4 L7,4 L7,5 L6,5 L6,6 L5,6 L5,5 L4,5 Z" id="path-21"></path>
+        <path d="M22,18 L22,20 L8,20 L8,18 L22,18 Z M17,15 L17,17 L8,17 L8,15 L17,15 Z M21,12 L21,14 L8,14 L8,12 L21,12 Z M17,9 L17,11 L8,11 L8,9 L17,9 Z M22,6 L22,8 L8,8 L8,6 L22,6 Z" id="path-23"></path>
+        <rect id="path-25" x="0" y="0" width="288" height="1"></rect>
+        <path d="M21.894,6.10625 C20.419,4.63125 18.02,4.63125 16.545,6.10625 L14.893,7.75825 C14.557,8.09525 14.557,8.64125 14.893,8.97825 C15.23,9.31425 15.776,9.31425 16.113,8.97825 L17.764,7.32525 C18.567,6.52325 19.873,6.52325 20.675,7.32525 C21.477,8.12725 21.477,9.43325 20.675,10.23525 L17.346,13.56425 C16.543,14.36725 15.239,14.36725 14.436,13.56425 C14.098,13.22725 13.552,13.22825 13.216,13.56425 C12.879,13.90125 12.879,14.44825 13.216,14.78425 C13.954,15.52125 14.922,15.89025 15.891,15.89025 C16.859,15.89025 17.828,15.52125 18.566,14.78425 L21.894,11.45525 C23.369,9.98025 23.369,7.58125 21.894,6.10625 M13.889,17.02225 L12.237,18.67425 C11.435,19.47625 10.13,19.47725 9.328,18.67425 C8.525,17.87225 8.525,16.56625 9.328,15.76425 L12.656,12.43525 C13.458,11.63225 14.764,11.63325 15.566,12.43525 C15.903,12.77225 16.448,12.77225 16.785,12.43525 C17.122,12.09825 17.122,11.55225 16.785,11.21525 C15.311,9.74125 12.912,9.74025 11.437,11.21525 L8.108,14.54425 C7.393,15.25925 7,16.20925 7,17.21925 C7,18.23025 7.393,19.17925 8.108,19.89425 C8.845,20.63125 9.814,21.00025 10.783,21.00025 C11.75,21.00025 12.719,20.63125 13.456,19.89425 L15.109,18.24125 C15.446,17.90425 15.446,17.35825 15.109,17.02225 C14.772,16.68525 14.226,16.68525 13.889,17.02225" id="path-27"></path>
+        <path d="M23.9578,22 C21.0238,22 19.9998,19.489 19.9998,18 C19.9998,15.156 23.9578,8.958 23.9578,8.958 C23.9578,8.958 27.9998,15.156 27.9998,18 C27.9998,19.489 26.8928,22 23.9578,22" id="path-29"></path>
+        <path d="M23.9495,7.0785 L24.7965,8.3765 C25.2275,9.0365 29.0005,14.9475 29.0005,18.0005 C29.0005,20.0595 27.4365,23.0005 23.9585,23.0005 C20.3465,23.0005 19.0005,19.9175 19.0005,18.0005 C19.0005,14.9525 22.6945,9.0435 23.1155,8.3845 L23.1155,8.3845 L23.9495,7.0785 Z M23.9585,8.9585 C23.9585,8.9585 20.0005,15.1565 20.0005,18.0005 C20.0005,19.4895 21.0245,22.0005 23.9585,22.0005 C26.8935,22.0005 28.0005,19.4895 28.0005,18.0005 C28.0005,15.275 24.288316,9.46917708 23.9789673,8.99009028 Z M21,2 C22.105,2 23,2.896 23,4 L23,4 L23,5.396 C22.317,6.297 20.594,8.918 19.146,11.771 C18.841,12.373 18.55,12.986 18.29,13.602 L18.29,13.602 L15.402,6.178 C15.102,5.452 14.459,5 13.723,5 L13.723,5 C12.987,5 12.343,5.452 12.043,6.178 L12.043,6.178 L7,18 L9,18 L10.774,14 L16.393,14 L17.374,16.441 C17.041,18.081 17.127,19.655 17.984,21 L17.984,21 L7,21 C5.896,21 5,20.105 5,19 L5,19 L5,17 L4,17 C3.448,17 3,16.553 3,16 C3,15.448 3.448,15 4,15 L4,15 L5,15 L5,13 L4,13 C3.448,13 3,12.553 3,12 C3,11.448 3.448,11 4,11 L4,11 L5,11 L5,9 L3,9 C2.448,9 2,8.553 2,8 C2,7.448 2.448,7 3,7 L3,7 L5,7 L5,4 L2,4 C1.448,4 1,3.553 1,3 C1,2.448 1.448,2 2,2 L2,2 Z M13.7227,7.3525 L15.5897,12.0005 L11.6607,12.0005 L13.7227,7.3525 Z" id="path-31"></path>
+        <path d="M21.9578,21 C19.0238,21 17.9998,18.489 17.9998,17 C17.9998,14.156 21.9578,7.958 21.9578,7.958 C21.9578,7.958 25.9998,14.156 25.9998,17 C25.9998,18.489 24.8928,21 21.9578,21" id="path-33"></path>
+        <path d="M21.9488,6.078 L22.7958,7.376 C23.2268,8.036 26.9998,13.947 26.9998,17 C26.9998,19.059 25.4358,22 21.9578,22 C18.3458,22 16.9998,18.917 16.9998,17 C16.9998,13.952 20.6938,8.043 21.1148,7.384 L21.1148,7.384 L21.9488,6.078 Z M21.9578,7.958 C21.9578,7.958 17.9998,14.156 17.9998,17 C17.9998,18.489 19.0238,21 21.9578,21 C24.8928,21 25.9998,18.489 25.9998,17 C25.9998,14.156 21.9578,7.958 21.9578,7.958 Z M11.723,4 C12.458,4 13.101,4.451 13.401,5.178 L13.401,5.178 L16,12.004 L15.5,16 L14.392,13 L8.773,13 L7,17 L5,17 L10.043,5.178 C10.343,4.451 10.986,4 11.722,4 L11.722,4 Z M11.722,6.352 L9.66,11 L13.589,11 L11.722,6.352 Z" id="path-35"></path>
+        <path d="M21,17.9996 L21,19.9996 L10,19.9996 L10,17.9996 L21,17.9996 Z M19,5 C19.553,5 20,5.447 20,6 L20,11.449 C20,14.175 18.065,16.232 15.5,16.232 C12.935,16.232 11,14.175 11,11.449 L11,6 C11,5.447 11.447,5 12,5 C12.553,5 13,5.447 13,6 L13,11.449 C13,12.832 13.859,14.232 15.5,14.232 C17.141,14.232 18,12.832 18,11.449 L18,6 C18,5.447 18.447,5 19,5 Z" id="path-37"></path>
+        <polygon id="path-39" points="19 8 19 6 12 6 12 8 14.712 8 13.121 18 11 18 11 20 18 20 18 18 15.146 18 16.738 8"></polygon>
+        <path d="M13.0027192,11 L16.0054384,11 C17.0063448,11 17.0063448,9 16.0054384,9 L13.0027192,9 L13.0027192,11 Z M13.0027192,14 L13.0027192,17 L16.0054384,17 C18.0072512,17 18.0072512,14 16.0054384,14 L13.0027192,14 Z M16.7881472,20 L12.0018128,20 C10.8968121,20 10,19.104 10,18 L10,8 C10,6.896 10.8968121,6 12.0018128,6 L15.9153568,6 C17.3976992,6 18.5627542,6.64 19.3204403,7.792 C20.1391818,9.034 20.2072434,10.618 19.4885926,11.937 C19.3414594,12.208 19.1723062,12.45 18.9771295,12.674 C20.0561065,13.25 20.8578326,14.367 20.9789422,15.573 C21.0930456,16.724 20.7407265,17.812 19.9880449,18.639 C19.1993307,19.504 18.0322738,20 16.7881472,20 L16.7881472,20 Z" id="path-41"></path>
+        <rect id="path-43" x="0" y="0" width="288" height="1"></rect>
+        <rect id="path-45" x="0" y="0" width="174" height="6" rx="3"></rect>
+        <filter x="-0.3%" y="-8.3%" width="100.6%" height="116.7%" filterUnits="objectBoundingBox" id="filter-46">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M8.000018,-2e-05 C12.41828,-2e-05 15.999992,3.58176 15.999992,7.99996 C15.999992,12.41824 12.41828,16.00002 8.000018,16.00002 C3.581702,16.00002 7.99999999e-06,12.41824 7.99999999e-06,7.99996 C7.99999999e-06,3.58176 3.581702,-2e-05 8.000018,-2e-05 Z" id="path-47"></path>
+        <filter x="-31.3%" y="-25.0%" width="162.5%" height="162.5%" filterUnits="objectBoundingBox" id="filter-48">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.16862746   0 0 0 0 0.3372549   0 0 0 0 0.44705883  0 0 0 0.43 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M9,17 C4.589,17 1,13.411 1,9 C1,4.589 4.589,1 9,1 C13.411,1 17,4.589 17,9 C17,13.411 13.411,17 9,17 L9,17 Z M9,0 C4.029,0 0,4.029 0,9 C0,13.971 4.029,18 9,18 C13.971,18 18,13.971 18,9 C18,4.029 13.971,0 9,0 L9,0 Z M10,12 L10,7 L8,7 L7,9 L8,9 L8,12 L7,13 L7,14 L11,14 L11,13 L10,12 Z M8,6 L10,6 L10,4 L8,4 L8,6 Z" id="path-49"></path>
+        <rect id="path-51" x="0" y="0" width="288" height="1"></rect>
+        <path d="M9,17 C4.589,17 1,13.411 1,9 C1,4.589 4.589,1 9,1 C13.411,1 17,4.589 17,9 C17,13.411 13.411,17 9,17 L9,17 Z M9,0 C4.029,0 0,4.029 0,9 C0,13.971 4.029,18 9,18 C13.971,18 18,13.971 18,9 C18,4.029 13.971,0 9,0 L9,0 Z M10,12 L10,7 L8,7 L7,9 L8,9 L8,12 L7,13 L7,14 L11,14 L11,13 L10,12 Z M8,6 L10,6 L10,4 L8,4 L8,6 Z" id="path-53"></path>
+        <rect id="path-55" x="0" y="0" width="288" height="1"></rect>
+        <path d="M9,17 C4.589,17 1,13.411 1,9 C1,4.589 4.589,1 9,1 C13.411,1 17,4.589 17,9 C17,13.411 13.411,17 9,17 L9,17 Z M9,0 C4.029,0 0,4.029 0,9 C0,13.971 4.029,18 9,18 C13.971,18 18,13.971 18,9 C18,4.029 13.971,0 9,0 L9,0 Z M10,12 L10,7 L8,7 L7,9 L8,9 L8,12 L7,13 L7,14 L11,14 L11,13 L10,12 Z M8,6 L10,6 L10,4 L8,4 L8,6 Z" id="path-57"></path>
+    </defs>
+    <g id="interactive-vertical" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Panel-Content" mask="url(#mask-2)">
+                <g transform="translate(0.000000, 85.000000)">
+                    <g id="04-Buttons-/-3.-Text-Buttons-/-C23---Text-Button-/-Default" transform="translate(0.000000, 444.500000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="54"></rect>
+                        </g>
+                        <text id="Label" font-family="HelveticaNeueW01-45Light, Helvetica Neue W01 45 Light" font-size="14" font-weight="normal" line-spacing="18" fill="#3899EC">
+                            <tspan x="24" y="30">Reset to Theme</tspan>
+                        </text>
+                    </g>
+                    <g id="01-Panel-Structure-/-3.-Dividers-/-C06D---Collapse-Section-Divider-/-Closed-/-Default" transform="translate(0.000000, 408.000000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Collapse-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="42"></rect>
+                        </g>
+                        <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 42.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <polygon id="Triangle" fill="#2B5672" fill-rule="evenodd" transform="translate(27.000000, 21.000000) rotate(-270.000000) translate(-27.000000, -21.000000) " points="27 18 31 24 23 24"></polygon>
+                        <text id="Label" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="14" font-weight="normal" line-spacing="18" fill="#2B5672">
+                            <tspan x="44" y="25">Heading Tag</tspan>
+                        </text>
+                    </g>
+                    <g id="01-Panel-Structure-/-3.-Dividers-/-C06D---Collapse-Section-Divider-/-Closed-/-Default" transform="translate(0.000000, 365.000000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Collapse-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="42"></rect>
+                        </g>
+                        <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 42.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <polygon id="Triangle" fill="#2B5672" fill-rule="evenodd" transform="translate(27.000000, 21.000000) rotate(-270.000000) translate(-27.000000, -21.000000) " points="27 18 31 24 23 24"></polygon>
+                        <text id="Label" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="14" font-weight="normal" line-spacing="18" fill="#2B5672">
+                            <tspan x="44" y="25">Character &amp; Line Spacing</tspan>
+                        </text>
+                    </g>
+                    <g id="01-Panel-Structure-/-3.-Dividers-/-C06D---Collapse-Section-Divider-/-Closed-/-Default" transform="translate(0.000000, 322.000000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Collapse-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="42"></rect>
+                        </g>
+                        <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 42.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, -1.000000)">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <polygon id="Triangle" fill="#2B5672" fill-rule="evenodd" transform="translate(27.000000, 21.000000) rotate(-270.000000) translate(-27.000000, -21.000000) " points="27 18 31 24 23 24"></polygon>
+                        <text id="Label" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="14" font-weight="normal" line-spacing="18" fill="#2B5672">
+                            <tspan x="44" y="25">Effects</tspan>
+                        </text>
+                    </g>
+                    <g id="03-Selections-/-2.-Thumbnails-/-C62-/-1.-Paragaph-Composite" transform="translate(0.000000, 249.000000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="72"></rect>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(228.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Text-RTL" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-12" fill="white">
+                                    <use xlink:href="#path-11"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-12)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(186.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Increas-LTR" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-14" fill="white">
+                                    <use xlink:href="#path-13"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-13"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-14)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(144.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Decreas-LTR" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-16" fill="white">
+                                    <use xlink:href="#path-15"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-15"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-16)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C62-/-Trigger-/-Default" transform="translate(81.000000, 0.000000)">
+                            <rect id="Box" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="63" height="72"></rect>
+                            <rect id="Bg" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="53" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Arrows-/-Pixelated-/-Large-/-Arrow-Down" transform="translate(39.000000, 34.000000)">
+                                <mask id="mask-18" fill="white">
+                                    <use xlink:href="#path-17"></use>
+                                </mask>
+                                <use id="Arrow" fill="#0099EF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                                <g id="Foundations-/-3.-Colors-/-01-Primary-/-B1" mask="url(#mask-18)" fill="#3899EC" fill-rule="evenodd">
+                                    <rect id="B1" x="0" y="0" width="11" height="6"></rect>
+                                </g>
+                            </g>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Bullets-Left" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-20" fill="white">
+                                    <use xlink:href="#path-19"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-19"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-20)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C62-/-Trigger-/-Default" transform="translate(18.000000, 0.000000)">
+                            <rect id="Box" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="63" height="72"></rect>
+                            <rect id="Bg" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="53" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Arrows-/-Pixelated-/-Large-/-Arrow-Down" transform="translate(39.000000, 34.000000)">
+                                <mask id="mask-22" fill="white">
+                                    <use xlink:href="#path-21"></use>
+                                </mask>
+                                <use id="Arrow" fill="#0099EF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                                <g id="Foundations-/-3.-Colors-/-01-Primary-/-B1" mask="url(#mask-22)" fill="#3899EC" fill-rule="evenodd">
+                                    <rect id="B1" x="0" y="0" width="11" height="6"></rect>
+                                </g>
+                            </g>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Align-Right" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-24" fill="white">
+                                    <use xlink:href="#path-23"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-23"></use>
+                                <g id="Foundations-/-3.-Colors-/-01-Primary-/-D2" mask="url(#mask-24)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 247.000000)">
+                        <mask id="mask-26" fill="white">
+                            <use xlink:href="#path-25"></use>
+                        </mask>
+                        <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-25"></use>
+                    </g>
+                    <g id="03-Selections-/-2.-Thumbnails-/-C61-/-1.-Style-Composite" transform="translate(0.000000, 174.000000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="72"></rect>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(228.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Link-Text" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-28" fill="white">
+                                    <use xlink:href="#path-27"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-27"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-28)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(186.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Highlight" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-30" fill="white">
+                                    <use xlink:href="#path-29"></use>
+                                </mask>
+                                <use id="Path" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
+                                <g id="Foundations-/-3.-Colors-/-06-Components-/-Color-Input-/-Yellow" mask="url(#mask-30)" fill="#EFC600" fill-rule="evenodd">
+                                    <g transform="translate(19.000000, 7.000000)" id="Color">
+                                        <rect x="0" y="0" width="10" height="16"></rect>
+                                    </g>
+                                </g>
+                                <mask id="mask-32" fill="white">
+                                    <use xlink:href="#path-31"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-31"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-32)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(144.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Fill-Color" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-34" fill="white">
+                                    <use xlink:href="#path-33"></use>
+                                </mask>
+                                <use id="Path" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                                <g id="Foundations-/-3.-Colors-/-06-Components-/-Color-Input-/-Green" mask="url(#mask-34)" fill="#00D104" fill-rule="evenodd">
+                                    <g transform="translate(17.000000, 6.000000)" id="Color">
+                                        <rect x="0" y="0" width="10" height="16"></rect>
+                                    </g>
+                                </g>
+                                <mask id="mask-36" fill="white">
+                                    <use xlink:href="#path-35"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-35"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-36)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(102.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Underline" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-38" fill="white">
+                                    <use xlink:href="#path-37"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-37"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-38)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(60.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Italic" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-40" fill="white">
+                                    <use xlink:href="#path-39"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-39"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-40)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-2.-Thumbnails-/-C61-/-States-/-Default" transform="translate(18.000000, 0.000000)">
+                            <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect id="BG" x="0" y="0" width="42" height="72"></rect>
+                            </g>
+                            <rect id="Thumb-Style" fill="#FFFFFF" fill-rule="evenodd" x="5" y="20" width="32" height="32" rx="8"></rect>
+                            <g id="Foundations-/-1.-Icons-/-Text-/-Bold" transform="translate(6.000000, 23.000000)">
+                                <mask id="mask-42" fill="white">
+                                    <use xlink:href="#path-41"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="evenodd" xlink:href="#path-41"></use>
+                                <g id="Foundations-/-3.-Colors-/-04-Icons-/-Text-/-Default-D2" mask="url(#mask-42)" fill="#2B5672" fill-rule="evenodd">
+                                    <rect id="D2" x="0" y="0" width="30" height="25"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 172.000000)">
+                        <mask id="mask-44" fill="white">
+                            <use xlink:href="#path-43"></use>
+                        </mask>
+                        <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-43"></use>
+                    </g>
+                    <g id="02-Inputs-/-2.-Sliders-/-C25---Slider-Main-/-Default" transform="translate(0.000000, 87.000000)">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="84"></rect>
+                        </g>
+                        <g id="02-Inputs-/-Primitives-/-Text-Inputs-/-Numeric-Units-Input-/-Default" transform="translate(210.000000, 36.000000)">
+                            <rect id="Input" x="0" y="0" width="66" height="36" rx="8"></rect>
+                            <text id="Number" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="18" font-weight="normal" line-spacing="24" fill="#162D3D">
+                                <tspan x="28.984" y="23">20</tspan>
+                            </text>
+                            <g id="02-Inputs-/-Primitives-/-Text-Inputs-/-P02---Text-Units-/-Pixels-/-Default" transform="translate(49.000000, 6.000000)" fill="#162D3D" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="12" font-weight="normal" line-spacing="24">
+                                <text id="px">
+                                    <tspan x="0" y="11">px</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="02-Inputs-/-Primitives-/-Sliders-/-P12---Slider-/-Default" transform="translate(24.000000, 49.000000)">
+                            <g id="02-Inputs-/-Primitives-/-Sliders-/-P12---Slider-/-Base-/-Default" transform="translate(0.000000, 5.000000)">
+                                <g id="Base">
+                                    <use fill="#D3EDFF" fill-rule="evenodd" xlink:href="#path-45"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-46)" xlink:href="#path-45"></use>
+                                </g>
+                            </g>
+                            <g id="Slider" stroke-width="1" fill-rule="evenodd">
+                                <g id="02-Inputs-/-Primitives-/-Sliders-/-P12---Slider-/-Bar-/-Default" transform="translate(0.000000, 5.000000)" fill="#0099EF">
+                                    <path d="M3,0 L75,0 C76.6568542,-3.04359188e-16 78,1.34314575 78,3 C78,4.65685425 76.6568542,6 75,6 L3,6 C1.34314575,6 2.02906125e-16,4.65685425 0,3 C-2.02906125e-16,1.34314575 1.34314575,3.04359188e-16 3,0 Z" id="Bar"></path>
+                                </g>
+                                <g id="02-Inputs-/-Primitives-/-Sliders-/-P12-Slider-/-Slider-Handle-/-Default" transform="translate(62.000000, 0.000000)">
+                                    <g id="Ellipse-46-copy-21">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-48)" xlink:href="#path-47"></use>
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-47"></use>
+                                    </g>
+                                    <path d="M8.000012,3.999968 C10.20914,3.999968 11.999996,5.79086 11.999996,7.999964 C11.999996,10.209152 10.20914,12.000044 8.000012,12.000044 C5.79086,12.000044 3.999992,10.209152 3.999992,7.999964 C3.999992,5.79086 5.79086,3.999968 8.000012,3.999968 Z" id="Ellipse-6-copy-18" fill="#3899EC" fill-rule="evenodd"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="Label" font-family="HelveticaNeueW01-45Light, Helvetica Neue W01 45 Light" font-size="14" font-weight="normal" line-spacing="18" fill="#2B5672">
+                            <tspan x="24" y="30">Font Size</tspan>
+                        </text>
+                        <g id="Foundations-/-1.-Icons-/-Info-/-Hide-Info" transform="translate(258.000000, 12.000000)">
+                            <mask id="mask-50" fill="white">
+                                <use xlink:href="#path-49"></use>
+                            </mask>
+                            <use id="Mask" fill="#000000" fill-rule="evenodd" opacity="0" xlink:href="#path-49"></use>
+                            <g id="Foundations-/-3.-Colors-/-04-Icons-/-Info-Icons-/-Default-D3" opacity="0" mask="url(#mask-50)" fill="#7A92A5" fill-rule="evenodd">
+                                <rect id="D3" x="0" y="0" width="18" height="18"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 85.000000)">
+                        <mask id="mask-52" fill="white">
+                            <use xlink:href="#path-51"></use>
+                        </mask>
+                        <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-51"></use>
+                    </g>
+                    <g id="03-Selections-/-1.-Dropdowns-/-C10----Dropdown-Trigger-/-Default">
+                        <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="BG" x="0" y="0" width="288" height="84"></rect>
+                        </g>
+                        <g id="Foundations-/-1.-Icons-/-Info-/-Hide-Info" transform="translate(258.000000, 12.000000)">
+                            <mask id="mask-54" fill="white">
+                                <use xlink:href="#path-53"></use>
+                            </mask>
+                            <use id="Mask" fill="#000000" fill-rule="evenodd" opacity="0" xlink:href="#path-53"></use>
+                            <g id="Foundations-/-3.-Colors-/-04-Icons-/-Info-Icons-/-Default-D3" opacity="0" mask="url(#mask-54)" fill="#7A92A5" fill-rule="evenodd">
+                                <rect id="D3" x="0" y="0" width="18" height="18"></rect>
+                            </g>
+                        </g>
+                        <g id="03-Selections-/-Primitives-/-1.-Dropdowns-/-Dropdown-Trigger-/-Default" transform="translate(24.000000, 41.000000)">
+                            <g id="03-Selections-/-Primitives-/-1.-Dropdowns-/-Dropdown-Icon-/-Default" transform="translate(215.000000, 0.000000)">
+                                <circle id="O" stroke="#B1DDF8" stroke-width="2" cx="12.5" cy="12.5" r="11.5"></circle>
+                                <path d="M7.325,11.03 C7.32524229,11.2205021 7.40585365,11.4020593 7.547,11.53 L12.287,15.925 C12.5887614,16.1959772 13.0462386,16.1959772 13.348,15.925 L18.088,11.325 C18.2284082,11.1983365 18.3085539,11.0180981 18.3085539,10.829 C18.3085539,10.6399019 18.2284082,10.4596635 18.088,10.333 C17.7863209,10.0588255 17.3256791,10.0588255 17.024,10.333 L12.814,14.443 L8.603,10.538 C8.30132088,10.2638255 7.84067912,10.2638255 7.539,10.538 C7.40245208,10.6651758 7.32493114,10.8434015 7.325,11.03 L7.325,11.03 Z" id="arrow" fill="#3899EC" fill-rule="evenodd"></path>
+                            </g>
+                            <text id="Text" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="18" font-weight="normal" line-spacing="24" fill="#162D3D">
+                                <tspan x="0" y="17">Open Sans</tspan>
+                            </text>
+                        </g>
+                        <text id="Label" font-family="HelveticaNeueW01-45Light, Helvetica Neue W01 45 Light" font-size="14" font-weight="normal" line-spacing="18" fill="#2B5672">
+                            <tspan x="24" y="30">Fonts</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Sticky">
+                <g id="01-Panel-Structure-/-3.-Dividers-/-1.-C74A---Long-Divider" transform="translate(0.000000, 84.000000)">
+                    <mask id="mask-56" fill="white">
+                        <use xlink:href="#path-55"></use>
+                    </mask>
+                    <use id="Mask" fill="#D9E1E8" fill-rule="evenodd" xlink:href="#path-55"></use>
+                </g>
+                <g id="03-Selections-/-1.-Dropdowns-/-C10----Dropdown-Trigger-/-Default">
+                    <g id="01-Panel-Structure-/-Primitives-/-1.-Composite-Box-/-Default" fill="#FFFFFF" fill-rule="evenodd">
+                        <rect id="BG" x="0" y="0" width="288" height="84"></rect>
+                    </g>
+                    <g id="Foundations-/-1.-Icons-/-Info-/-Hide-Info" transform="translate(258.000000, 12.000000)">
+                        <mask id="mask-58" fill="white">
+                            <use xlink:href="#path-57"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="evenodd" opacity="0" xlink:href="#path-57"></use>
+                        <g id="Foundations-/-3.-Colors-/-04-Icons-/-Info-Icons-/-Default-D3" opacity="0" mask="url(#mask-58)" fill="#7A92A5" fill-rule="evenodd">
+                            <rect id="D3" x="0" y="0" width="18" height="18"></rect>
+                        </g>
+                    </g>
+                    <g id="03-Selections-/-Primitives-/-1.-Dropdowns-/-Dropdown-Trigger-/-Default" transform="translate(24.000000, 41.000000)">
+                        <g id="03-Selections-/-Primitives-/-1.-Dropdowns-/-Dropdown-Icon-/-Default" transform="translate(215.000000, 0.000000)">
+                            <circle id="O" stroke="#B1DDF8" stroke-width="2" cx="12.5" cy="12.5" r="11.5"></circle>
+                            <path d="M7.325,11.03 C7.32524229,11.2205021 7.40585365,11.4020593 7.547,11.53 L12.287,15.925 C12.5887614,16.1959772 13.0462386,16.1959772 13.348,15.925 L18.088,11.325 C18.2284082,11.1983365 18.3085539,11.0180981 18.3085539,10.829 C18.3085539,10.6399019 18.2284082,10.4596635 18.088,10.333 C17.7863209,10.0588255 17.3256791,10.0588255 17.024,10.333 L12.814,14.443 L8.603,10.538 C8.30132088,10.2638255 7.84067912,10.2638255 7.539,10.538 C7.40245208,10.6651758 7.32493114,10.8434015 7.325,11.03 L7.325,11.03 Z" id="arrow" fill="#3899EC" fill-rule="evenodd"></path>
+                        </g>
+                        <text id="Text" font-family="HelveticaNeueW01-55Roman, Helvetica Neue W01 55 Roman" font-size="18" font-weight="normal" line-spacing="24" fill="#162D3D">
+                            <tspan x="0" y="17">Heading 2</tspan>
+                        </text>
+                    </g>
+                    <text id="Label" font-family="HelveticaNeueW01-45Light, Helvetica Neue W01 45 Light" font-size="14" font-weight="normal" line-spacing="18" fill="#2B5672">
+                        <tspan x="24" y="30">Themes</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
