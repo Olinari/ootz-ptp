@@ -23,6 +23,7 @@ main:not([page="home"]) .home {
 }
 .filter {
   margin-left: 16px;
+  height: 100%;
   font-size: 12px;
   align-items: center;
   white-space: nowrap;

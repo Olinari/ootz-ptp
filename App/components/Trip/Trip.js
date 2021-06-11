@@ -25,7 +25,7 @@ export const home = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `
-    <div class="home">
+    <div class="trip">
     <div class="filters flex align-center">
     <div class="container flex align-center">
        <span id="location" class="filter flex">${icons.location}ירושלים והסביבה</span>
