@@ -14,6 +14,7 @@ export const travelerType = `
 </svg>
 </span>
 `;
+
 export const water = `
 <span class="icon">
 <svg width="13" height="11" style="transform:translate(0px, 1px)" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">

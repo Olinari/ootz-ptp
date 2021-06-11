@@ -40,19 +40,55 @@ export const home = (state, setState) => {
              <div class="card trip">
                 <div class="featured-image">
                    <img src="./Images/tours/jerusalem/jlm1.png">
+                   <div class="avatar">
+                   <img src="./Images/avatars/oots.png">
+                   </div>
                 </div>
                 <div class="trip-details">
                 <div class="trip-title">
                    חוויה ירושלמית
                 </div>
+                <div class="tags">
+                <span class="tag">#היסטורי</span>
+                <span class="tag">#עירוני</span>
+                <span class="tag">#שופינג</span>
+                </div>
                 </div>
              </div>
              <div class="card trip">
+             <div class="featured-image">
+                <img src="./Images/tours/jerusalem/jlm3.png">
+                <div class="avatar">
+                <img src="./Images/avatars/oots.png">
+                </div>
+             </div>
+             <div class="trip-details">
+             <div class="trip-title">
+                חוויה ירושלמית
+             </div>
+             <div class="tags">
+             <span class="tag">#היסטורי</span>
+             <span class="tag">#עירוני</span>
+             <span class="tag">#שופינג</span>
+             </div>
+             </div>
+          </div>
+          <div class="card trip">
                 <div class="featured-image">
-                   <img src="./Images/tours/jerusalem/jlm1.png">
+                   <img src="./Images/tours/jerusalem/jlm2.png">
+                   <div class="avatar">
+                   <img src="./Images/avatars/oots.png">
+                   </div>
                 </div>
                 <div class="trip-details">
-                   lorem
+                <div class="trip-title">
+                   חוויה ירושלמית
+                </div>
+                <div class="tags">
+                <span class="tag">#היסטורי</span>
+                <span class="tag">#עירוני</span>
+                <span class="tag">#שופינג</span>
+                </div>
                 </div>
              </div>
           </div>

@@ -32,6 +32,7 @@
   position: sticky;
   top: 80px;
   background-color: white;
+  z-index: 9;
 }
 .featured-image img {
   height: 400px;
@@ -40,6 +41,8 @@
 .card.trip {
   border: 1px solid #0000001c;
   margin-left: 16px;
+  position: relative;
+  border-radius: 3px;
 }
 .card.trip .trip-details {
   height: 50px;
@@ -52,6 +55,13 @@
 .home .icon {
   margin-left: 4px;
 }
+.home .avatar img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 .btn-small {
   left: 10px;
   font-size: 14px;
@@ -62,9 +72,14 @@
   user-select: none;
 }
 .trip-details {
-  padding: 12px 12px;
+  padding: 12px 12px 0px 12px;
 }
 .trip-title {
   font-size: 16px;
   font-weight: 600;
+  margin-bottom: 4px;
+}
+.tag {
+  font-size: 13px;
+  margin-left: 8px;
 }
