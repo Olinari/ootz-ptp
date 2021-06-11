@@ -25,9 +25,11 @@ export const home = (state, setState) => {
     "afterbegin",
     `
 <div class="home">
-<div class="trip-caousel">
+<div class="category-caousel">
 <div class="title">טיולים מומלצים</div>
+<div class="carousel flex"></div>
 </div>
+
 </div>
     `
   );
