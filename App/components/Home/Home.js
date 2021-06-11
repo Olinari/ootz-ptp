@@ -1,8 +1,8 @@
 import * as icons from "./icons.js";
 console.log(icons);
 //Append Styles
-var href = "../App/components/TopBar/top-bar.css";
-const exists = false;
+var href = "../App/components/Home/home.css";
+var exists = false;
 document.querySelectorAll("link").forEach((link) => {
   if (link.getAttribute("href") === href) {
     exists = true;
@@ -18,15 +18,15 @@ if (!exists) {
 
 //icons and images
 
-export const topBar = (state, setState) => {
-  let container = document.querySelector("#top-bar");
+export const home = (state, setState) => {
+  let container = document.querySelector("main");
 
   container.insertAdjacentHTML(
     "afterbegin",
     `
-<div class="Home">
+<div class="home">
 <div class="trip-caousel">
-<div class="title"><
+<div class="title">טיולים מומלצים</div>
 </div>
 </div>
     `

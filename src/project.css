@@ -1,3 +1,9 @@
 * {
   font-family: "Rubik", sans-serif;
 }
+main {
+  height: 100vh;
+
+  direction: rtl;
+  margin-top: 60px;
+}
