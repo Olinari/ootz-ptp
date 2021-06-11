@@ -1,6 +1,11 @@
 * {
   font-family: "Rubik", sans-serif;
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 main {
   direction: rtl;
+}
+*::-webkit-scrollbar {
+  display: none;
 }

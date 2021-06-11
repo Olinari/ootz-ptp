@@ -25,10 +25,11 @@ export const home = (state, setState) => {
     "afterbegin",
     `
     <div class="home">
-    <div class="filters flex">
-       <span id="location" class="filter">ירושלים והסביבה</span>
-       <span id="traveler-type" class="filter">עם ילדים </span>
-       <span id="other" class="filter">כניסה למים</span>
+    <div class="filters flex align-center">
+       <span id="location" class="filter flex">${icons.location}ירושלים והסביבה</span>
+       <span id="traveler-type" class="filter">${icons.travelerType}עם ילדים </span>
+       <span id="other" class="filter">${icons.water}כניסה למים</span>
+       <div class="btn-small absolute">שינוי</div>
     </div>
     <div class="trips-content">
        <div class="category-title">טיולים מומלצים</div>
