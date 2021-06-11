@@ -24,7 +24,7 @@ export const topBar = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `
-<div class="topbar">
+<div class="Home">
 
   <div class="left-side">
   ${icons.menu}
