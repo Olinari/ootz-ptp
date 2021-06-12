@@ -30,12 +30,12 @@ main:not([page="trip"]) .trip-page {
   padding: 16px;
   flex-direction: column;
   display: flex;
-  gap: 20px;
+
   position: relative;
 }
 .trip-page .trip-list-item {
   display: flex;
-  gap: 12px;
+  margin-bottom: 16px;
 }
 .trip-list-item {
   display: flex;
@@ -56,9 +56,18 @@ main:not([page="trip"]) .trip-page {
 }
 .trip-list-img {
   margin-top: -10px;
-  margin-right: 40px;
-  width: calc(100vw - 1130px) !important;
+  margin-right: 60px;
+  margin-bottom: 24px;
 }
 .trip-list-img img {
-  width: calc(100vw - 70px) !important;
+  width: calc(100vw - 90px) !important;
+}
+.trip-list-icon {
+  margin-left: 24px;
+}
+.icons svg {
+  margin-left: 24px;
+}
+.icons {
+  margin-right: 16px !important;
 }

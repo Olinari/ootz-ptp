@@ -13,15 +13,3 @@ main {
   display: none;
   user-select: none;
 }
-.gap-8 {
-  gap: 12px;
-}
-.gap-12 {
-  gap: 12px;
-}
-.gap-16 {
-  gap: 16px;
-}
-.gap-20 {
-  gap: 20px;
-}
