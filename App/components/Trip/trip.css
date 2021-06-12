@@ -1,92 +1,16 @@
-main:not([page="home"]) .home {
+main:not([page="trip"]) .trip-page {
   transform: translate(-10000px, 0px);
+  width: 0px;
+  height: 0px;
+  position: absolute;
 }
-
-.home {
-  margin-top: 50px;
+.trip-page {
+  position: absolute;
+  top: 50px;
   transform: translate(0px, 0px);
   transition: transform 1s;
-}
-.filters {
-  width: calc(100% - 32px);
-  padding: 8px 16px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  background-color: #f2f2f2;
-  position: sticky;
-  top: 50px;
-  z-index: 99;
-}
-.filters .container {
-  width: calc(100% - 70px) !important;
-  overflow: scroll;
-}
-.filter {
-  margin-left: 16px;
-  height: 100%;
-  font-size: 12px;
-  align-items: center;
-  white-space: nowrap;
-}
-.category-caousel {
-  width: 100vw;
-  overflow-x: scroll;
-}
-.category-title {
-  font-size: 18px;
-  font-weight: 600;
-  padding: 16px;
-  position: sticky;
-  top: 80px;
-  background-color: white;
-  z-index: 9;
-}
-.featured-image img {
-  height: 400px;
-  max-height: 50vh;
-}
-.card.trip {
-  border: 1px solid #0000001c;
-  margin-left: 16px;
-  position: relative;
-  border-radius: 3px;
-}
-.card.trip .trip-details {
-  height: 50px;
-  width: 100%;
-}
-.filters span:not(:last-of-type) {
-  border-left: 1px solid #0000001c;
-  padding-left: 16px;
-}
-.home .icon {
-  margin-left: 4px;
-}
-.home .avatar img {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-.btn-small {
-  left: 10px;
-  font-size: 14px;
-  background-color: var(--main);
-  padding: 4px 12px;
-  border-radius: 100px;
-  cursor: pointer;
-  user-select: none;
-}
-.trip-details {
-  padding: 12px 12px 0px 12px;
-}
-.trip-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-.tag {
-  font-size: 13px;
-  margin-left: 8px;
+  background-color: black;
+  width: 1000px;
+  height: 10000px;
+  color: white;
 }

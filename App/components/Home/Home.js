@@ -116,7 +116,7 @@ export const home = (state, setState) => {
           </div>
        </div>
     </div>
- </div>
+
  <div class="category-title">טיולים מומלצים</div>
  <div class="category-caousel">
     <div class="carousel flex">

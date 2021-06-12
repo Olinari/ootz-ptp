@@ -3,6 +3,9 @@
   scroll-behavior: auto;
   scroll-behavior: smooth;
 }
+body {
+  height: 100vh;
+}
 main {
   direction: rtl;
 }

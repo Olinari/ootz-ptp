@@ -1,5 +1,6 @@
 main:not([page="home"]) .home {
   transform: translate(-10000px, 0px);
+  height: 0px;
 }
 
 .home {
