@@ -46,8 +46,17 @@ export const trip = (state, setState) => {
    <div class="trip-list-item-title">נקבת חיזקיה</div>
    <div class="trip-list-item-details">3 שעות</div>
    </div>
-   </div>
 
+   <div class="flex gap-20" style="margin-right:12px">${icons.up}${icons.down}${icons.trash}<div class="btn-small">הזמנה</div></div>
+   </div>
+   <div class="trip-list-img">
+   <img src="./Images/pins/jerusalem/nikbapng.png">
+   </div>
+   <div class="trip-list-item">
+   <div class="trip-list-icon">${icons.car}</div>
+   <div class="trip-list-item-title">נסיעה</div>
+   <div class="trip-list-item-details">3 שעות</div>
+   </div>
 </div>
     `
   );
@@ -56,6 +65,7 @@ export const trip = (state, setState) => {
     container.querySelectorAll(".card").forEach(
       (card) =>
         (card.onclick = () => {
+          console.log("go");
           router("trip");
         })
     );

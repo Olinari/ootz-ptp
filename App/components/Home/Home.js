@@ -53,7 +53,9 @@ export const home = (state, setState) => {
                 <span class="tag">#היסטורי</span>
                 <span class="tag">#עירוני</span>
                 <span class="tag">#שופינג</span>
+         
                 </div>
+                <div class="tag">${icons.clock}5-7 שעות</div>
                 </div>
              </div>
              <div class="card trip">

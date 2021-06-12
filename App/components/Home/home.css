@@ -47,13 +47,13 @@ main:not([page="home"]) .home {
 }
 .card.trip {
   border: 1px solid #0000001c;
-  border-right: 0px solid #0000001c;
+
   margin-left: 16px;
   position: relative;
   border-radius: 3px;
 }
 .card.trip .trip-details {
-  height: 50px;
+  height: 70px;
   width: 100%;
 }
 .filters span:not(:last-of-type) {

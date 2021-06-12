@@ -25,3 +25,21 @@ export const hiking = `
 </svg>
 
 `;
+
+export const up = `<svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.08746 11.8982L7.08746 0.814819" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.54578 6.35649L7.08744 0.814819L12.6291 6.35649" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const down = `<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.28021 1.08024L6.28021 12.0493" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.7648 6.56478L6.28023 12.0493L0.795699 6.56478" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+export const trash = `<svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.72821 4.8692H15.9782" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.68652 4.8692V3.28586C5.68652 2.86594 5.85334 2.46321 6.15027 2.16628C6.4472 1.86934 6.84993 1.70253 7.26986 1.70253H10.4365C10.8564 1.70253 11.2592 1.86934 11.5561 2.16628C11.853 2.46321 12.0199 2.86594 12.0199 3.28586V4.8692M14.3949 4.8692V15.9525C14.3949 16.3725 14.228 16.7752 13.9311 17.0721C13.6342 17.369 13.2314 17.5359 12.8115 17.5359H4.89486C4.47493 17.5359 4.0722 17.369 3.77527 17.0721C3.47834 16.7752 3.31152 16.3725 3.31152 15.9525V4.8692H14.3949Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.2699 8.82753V13.5775" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.4365 8.82753V13.5775" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;

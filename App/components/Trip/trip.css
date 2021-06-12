@@ -19,6 +19,7 @@ main:not([page="trip"]) .trip-page {
   border-bottom: 1px solid #0000001c;
   padding: 16px;
   background-color: white;
+  z-index: 99;
 }
 .trip-page .trip-title {
   position: sticky;
@@ -46,9 +47,17 @@ main:not([page="trip"]) .trip-page {
   content: "";
   position: absolute;
   right: 32px;
-  height: calc(100% - 72px);
+  height: calc(100% - 62px);
   top: 32px;
   z-index: -1;
   width: 3px;
   border-right: 2px dashed black;
+}
+.trip-list-img {
+  margin-top: -10px;
+  margin-right: 40px;
+  width: calc(100vw - 1130px) !important;
+}
+.trip-list-img img {
+  width: calc(100vw - 70px) !important;
 }
