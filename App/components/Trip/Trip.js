@@ -41,7 +41,7 @@ export const trip = (state, setState) => {
    </div>
  
    <div class="trip-list-item">
-   <div class="trip-list-icon">${icons.car}</div>
+   <div class="trip-list-icon">${icons.hiking}</div>
    <div class="flex column">
    <div class="trip-list-item-title">נקבת חיזקיה</div>
    <div class="trip-list-item-details">3 שעות</div>

@@ -29,6 +29,7 @@ main:not([page="trip"]) .trip-page {
   flex-direction: column;
   display: flex;
   gap: 20px;
+  position: relative;
 }
 .trip-page .trip-list-item {
   display: flex;
@@ -40,4 +41,14 @@ main:not([page="trip"]) .trip-page {
 }
 .trip-list-item-title {
   font-weight: bold;
+}
+.trip-list:after {
+  content: "";
+  position: absolute;
+  right: 32px;
+  height: calc(100% - 72px);
+  top: 32px;
+  z-index: -1;
+  width: 3px;
+  border-right: 2px dashed black;
 }
