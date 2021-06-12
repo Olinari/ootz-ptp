@@ -9,8 +9,35 @@ main:not([page="trip"]) .trip-page {
   top: 50px;
   transform: translate(0px, 0px);
   transition: transform 1s;
-  background-color: black;
+
   width: 1000px;
   height: 10000px;
-  color: white;
+}
+.trip-page .trip-details {
+  position: sticky;
+  top: 50px;
+  border-bottom: 1px solid #0000001c;
+  padding: 16px;
+  background-color: white;
+}
+.trip-page .trip-title {
+  position: sticky;
+  font-size: 18px;
+}
+.trip-page .trip-list {
+  padding: 16px;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+.trip-page .trip-list-item {
+  display: flex;
+  gap: 12px;
+}
+.trip-list-item {
+  display: flex;
+  align-items: center;
+}
+.trip-list-item-title {
+  font-weight: bold;
 }
