@@ -56,7 +56,6 @@ export const trip = (state, setState) => {
     container.querySelectorAll(".card").forEach(
       (card) =>
         (card.onclick = () => {
-          console.log("go");
           router("trip");
         })
     );
