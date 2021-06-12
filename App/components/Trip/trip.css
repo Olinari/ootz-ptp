@@ -9,9 +9,6 @@ main:not([page="trip"]) .trip-page {
   top: 50px;
   transform: translate(0px, 0px);
   transition: transform 1s;
-
-  width: 1000px;
-  height: 10000px;
 }
 .trip-page .trip-details {
   position: sticky;
@@ -20,6 +17,10 @@ main:not([page="trip"]) .trip-page {
   padding: 16px;
   background-color: white;
   z-index: 99;
+  width: calc(100vw - 20px);
+
+  display: flex;
+  justify-content: space-between;
 }
 .trip-page .trip-title {
   position: sticky;

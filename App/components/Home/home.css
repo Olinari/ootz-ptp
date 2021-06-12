@@ -1,6 +1,8 @@
 main:not([page="home"]) .home {
   transform: translate(-10000px, 0px);
-  height: 0px;
+  height: 0px !important;
+  margin: 0px;
+  padding-left: 0px;
 }
 
 .home {
@@ -87,6 +89,10 @@ main:not([page="home"]) .home {
   font-weight: 600;
   margin-bottom: 4px;
 }
+.tags {
+  transform: translate(0px, -2px);
+}
+
 .tag {
   font-size: 13px;
   margin-left: 8px;

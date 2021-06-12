@@ -24,13 +24,16 @@ export const trip = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `<div class="trip-page">
-    <div class="trip-details">
+    <div class="trip-details flex">
+    <div>
     <div class="trip-title">
        חוויה ירושלמית
     </div>
     <div class="time">
 5-7 שעות 
     </div>
+    </div>
+    ${icons.mapListToggle}
 </div>
 
 <div class="trip-list">
@@ -57,6 +60,26 @@ export const trip = (state, setState) => {
    <div class="trip-list-item-title">נסיעה</div>
    <div class="trip-list-item-details">3 שעות</div>
    </div>
+
+
+   <div class="trip-list-item">
+   <div class="trip-list-icon">${icons.winery}</div>
+   <div class="flex column">
+   <div class="trip-list-item-title">נקבת חיזקיה</div>
+   <div class="trip-list-item-details">3 שעות</div>
+   </div>
+
+   <div class="flex gap-20" style="margin-right:12px">${icons.up}${icons.down}${icons.trash}<div class="btn-small">הזמנה</div></div>
+   </div>
+   <div class="trip-list-img">
+   <img src="./Images/pins/jerusalem/winery.jpeg">
+   </div>
+   <div class="trip-list-item">
+   <div class="trip-list-icon">${icons.car}</div>
+   <div class="trip-list-item-title">נסיעה</div>
+   <div class="trip-list-item-details">3 שעות</div>
+   </div>
+
 </div>
     `
   );

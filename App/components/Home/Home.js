@@ -97,7 +97,7 @@ export const home = (state, setState) => {
           </div>
        </div>
     </div>
-    <div class="category-title">מובילי דרך</div>
+    <div class="category-title">המלצות מובילי דרך</div>
     <div class="category-caousel">
        <div class="carousel flex">
           <div class="card trip">
@@ -119,7 +119,7 @@ export const home = (state, setState) => {
        </div>
     </div>
 
- <div class="category-title">טיולים מומלצים</div>
+ <div class="category-title">הצטרפות לקבוצת מטיילים</div>
  <div class="category-caousel">
     <div class="carousel flex">
        <div class="card trip">
