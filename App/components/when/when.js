@@ -25,9 +25,9 @@ export const when = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `<div class="when">
-    <h1>מתי מטיילים?</h1>
+    
     <div class="when-container">
-
+    <h1>מתי מטיילים?</h1>
     <div class="btn-big">לטיול שלי</div>
     <div id="myCalendarWrapper"></div>
     </div>
@@ -41,8 +41,15 @@ export const when = (state, setState) => {
     const myCalender = new CalendarPicker("#myCalendarWrapper", {
       // options here
     });
+
+    myCalender.onValueChange((currentValue) => {
+      state.when = currentValue;
+
+      console.log(`The current value of the calendar is: ${currentValue}`);
+    });
     const nextBtn = document.querySelector(".btn-big");
     nextBtn.onclick = () => {
+      console.log(state.when);
       router("trip");
     };
   });
