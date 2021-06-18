@@ -1,5 +1,5 @@
 * {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif !important;
   scroll-behavior: auto;
   scroll-behavior: smooth;
 }
@@ -12,4 +12,12 @@ main {
 *::-webkit-scrollbar {
   display: none;
   user-select: none;
+}
+[page="where"] main[page="where"] {
+  overflow: hidden;
+  height: calc(100vh - 300px);
+}
+body {
+  height: 100vh;
+  overflow: hidden;
 }

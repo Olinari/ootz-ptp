@@ -118,40 +118,6 @@
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
-.dark {
-  background-color: var(--dark);
-}
-.darklight {
-  background-color: var(--darklight);
-}
-.light {
-  background-color: var(--light);
-}
-.primary {
-  background-color: var(--primary);
-}
-.more1 {
-  background-color: var(--more1);
-}
-.more2 {
-  background-color: var(--more2);
-}
-
-.more3 {
-  background-color: var(--more3);
-}
-.tint1 {
-  opacity: 75%;
-}
-.tint2 {
-  opacity: 50%;
-}
-.shade1 {
-  filter: brightness(78%);
-}
-.shade2 {
-  filter: brightness(53%);
-}
 
 hr {
   border: 0.5px solid #d9e1e8;

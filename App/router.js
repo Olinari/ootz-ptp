@@ -1,5 +1,4 @@
 export function router(page) {
-  document.documentElement.scrollTop = 0;
+  document.querySelector("body").setAttribute("page", page);
   document.querySelector("main").setAttribute("page", page);
-  document.documentElement.scrollTop = 0;
 }
