@@ -29,7 +29,7 @@ export const when = (state, setState) => {
     <div class="when-container">
 
     <div class="btn-big">לטיול שלי</div>
-    <input id="flatpickr">
+    <div id="myCalendarWrapper"></div>
     </div>
    
     </div>
@@ -38,17 +38,9 @@ export const when = (state, setState) => {
   );
 
   setTimeout(() => {
-    $("#flatpickr").datepicker({
-      // Function(s) to trigger on every date selection.
-      onSelect: (e) => {
-        /*  const d = new Date(e[0]);
-        state.when = moment(d).format("MMMM DD"); */
-        consol.log(e);
-      },
-      clickOpens: false,
-      // Function(s) to trigger on every time the calendar is closed.
+    const myCalender = new CalendarPicker("#myCalendarWrapper", {
+      // options here
     });
-
     const nextBtn = document.querySelector(".btn-big");
     nextBtn.onclick = () => {
       router("trip");

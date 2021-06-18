@@ -48,6 +48,7 @@ export const where = (state, setState) => {
     // Add geocoder result to container.
     geocoder.on("result", function (e) {
       state.place = JSON.stringify(e.result, null, 2);
+      setTimeout(() => {}, 1000);
       router("when");
     });
 

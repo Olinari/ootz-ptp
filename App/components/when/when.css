@@ -107,7 +107,7 @@ select {
   transition: transform 1s;
 }
 
-body:not([page="when"]) .flatpickr-calendar {
+body:not([page="when"]) .ui-datepicker {
   transform: translate(-10000px, 0px) !important;
 }
 .btn-big {
