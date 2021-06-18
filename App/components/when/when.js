@@ -38,28 +38,16 @@ export const when = (state, setState) => {
   );
 
   setTimeout(() => {
-    let pickr = flatpickr("#flatpickr", {
+    $("#flatpickr").datepicker({
       // Function(s) to trigger on every date selection.
-      onChange: (e) => {
-        const d = new Date(e[0]);
-        state.when = moment(d).format("MMMM DD");
-        console.log(state.when);
-        console.log(e);
+      onSelect: (e) => {
+        /*  const d = new Date(e[0]);
+        state.when = moment(d).format("MMMM DD"); */
+        consol.log(e);
       },
       clickOpens: false,
       // Function(s) to trigger on every time the calendar is closed.
-      onClose: () => {
-        pickr.open();
-      },
-
-      // Function(s) to trigger on every time the calendar is opened.
-      onOpen: null,
-
-      // Function to trigger when the calendar is ready.
-      onReady: null,
     });
-
-    pickr.open();
 
     const nextBtn = document.querySelector(".btn-big");
     nextBtn.onclick = () => {

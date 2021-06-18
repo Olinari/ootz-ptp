@@ -30,8 +30,9 @@ main:not([page="trip"]) .trip-page {
   padding: 16px;
   flex-direction: column;
   display: flex;
-
   position: relative;
+  overflow-y: scroll;
+  height: calc(100vh - 140px);
 }
 .trip-page .trip-list-item {
   display: flex;

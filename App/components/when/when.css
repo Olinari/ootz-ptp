@@ -24,7 +24,7 @@ main:not([page="when"]) .when {
 }
 
 #flatpickr {
-  opacity: 0;
+  opacity: 1;
 }
 .flatpickr-calendar {
   opacity: 0;
