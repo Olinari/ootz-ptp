@@ -48,8 +48,16 @@ export const where = (state, setState) => {
     // Add geocoder result to container.
     geocoder.on("result", function (e) {
       state.place = getRegion(e.result);
-      setTimeout(() => {}, 1000);
-      document.querySelector("body").click();
+      var field = document.createElement("input");
+      field.setAttribute("type", "text");
+      document.body.appendChild(field);
+
+      setTimeout(function () {
+        field.focus();
+        setTimeout(function () {
+          field.setAttribute("style", "display:none;");
+        }, 50);
+      }, 50);
       router("when");
     });
 
