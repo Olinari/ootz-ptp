@@ -47,14 +47,32 @@ export const where = (state, setState) => {
 
     // Add geocoder result to container.
     geocoder.on("result", function (e) {
-      state.place = JSON.stringify(e.result, null, 2);
+      state.place = getRegion(e.result);
       setTimeout(() => {}, 1000);
       router("when");
     });
 
     // Clear results container when search is cleared.
-    geocoder.on("clear", function () {
-      results.innerText = "";
-    });
+    geocoder.on("clear", function () {});
   });
+
+  function getRegion(place) {
+    var name = "ישראל";
+    if (place.place_name.includes("מחוז תל אביב")) {
+      name = "איזור תל אביב";
+    }
+    if (place.place_name.includes("מחוז הצפון")) {
+      name = "איזור הצפון";
+    }
+    if (place.place_name.includes("מחוז הדרום")) {
+      name = "איזור הדרום";
+    }
+    if (place.place_name.includes("מחוז ירושלים")) {
+      name = "איזור ירושלים";
+    }
+    if (place.place_name.includes("מחוז המרכז")) {
+      name = "איזור המרכז";
+    }
+    return name;
+  }
 };

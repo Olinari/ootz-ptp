@@ -43,13 +43,12 @@ export const when = (state, setState) => {
     });
 
     myCalender.onValueChange((currentValue) => {
-      state.when = currentValue;
-
-      console.log(`The current value of the calendar is: ${currentValue}`);
+      let when = moment(currentValue).locale("il").format("MMMM DD");
+      console.log(when);
+      state.when = when;
     });
     const nextBtn = document.querySelector(".btn-big");
     nextBtn.onclick = () => {
-      console.log(state.when);
       router("trip", state, setState);
     };
   });
