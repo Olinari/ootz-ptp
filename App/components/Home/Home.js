@@ -150,7 +150,7 @@ export const home = (state, setState) => {
       (card) =>
         (card.onclick = () => {
           console.log("go");
-          router("trip");
+          router("trip", state, setState);
         })
     );
   });

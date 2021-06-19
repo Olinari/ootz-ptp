@@ -50,7 +50,7 @@ export const when = (state, setState) => {
     const nextBtn = document.querySelector(".btn-big");
     nextBtn.onclick = () => {
       console.log(state.when);
-      router("trip");
+      router("trip", state, setState);
     };
   });
 };

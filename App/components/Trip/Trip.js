@@ -27,7 +27,7 @@ export const trip = (state, setState) => {
     <div class="trip-details flex">
     <div>
     <div class="trip-title">
-       חוויה ירושלמית
+    ${state.place.place_name_he - IL}
     </div>
     <div class="time">
 5-7 שעות 
@@ -50,7 +50,9 @@ export const trip = (state, setState) => {
    <div class="trip-list-item-details">3 שעות</div>
    </div>
 
-   <div class="flex icons" style="margin-right:12px">${icons.up}${icons.down}${icons.trash}<div class="btn-small">הזמנה</div></div>
+   <div class="flex icons" style="margin-right:12px">${icons.up}${icons.down}${
+      icons.trash
+    }<div class="btn-small">הזמנה</div></div>
    </div>
    <div class="trip-list-img">
    <img src="./Images/pins/jerusalem/nikbapng.png">
@@ -69,7 +71,9 @@ export const trip = (state, setState) => {
    <div class="trip-list-item-details">3 שעות</div>
    </div>
 
-   <div class="icons flex" >${icons.up}${icons.down}${icons.trash}<div class="btn-small">הזמנה</div></div>
+   <div class="icons flex" >${icons.up}${icons.down}${
+      icons.trash
+    }<div class="btn-small">הזמנה</div></div>
    </div>
    <div class="trip-list-img">
    <img src="./Images/pins/jerusalem/winery.jpeg">
