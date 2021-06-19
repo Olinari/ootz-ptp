@@ -1,6 +1,8 @@
 import * as icons from "./icons.js";
 import { router } from "../../router.js";
+import { data } from "./tripData.js";
 console.log(icons);
+
 //Append Styles
 var href = "../App/components/Trip/trip.css";
 var exists = false;
@@ -22,6 +24,10 @@ if (!exists) {
 export const trip = (state, setState) => {
   console.log(state);
   let container = document.querySelector("main");
+
+  if (container.querySelector(".trip-page")) {
+    container.querySelector(".trip-page").remove();
+  }
   container.insertAdjacentHTML(
     "afterbegin",
     `<div class="trip-page">
@@ -38,60 +44,55 @@ export const trip = (state, setState) => {
 </div>
 
 <div class="trip-list">
-   <div class="trip-list-item">
-   <div class="trip-list-icon">${icons.car}</div>
-   <div class="trip-list-item-title">נסיעה</div>
-   <div class="trip-list-item-details" style="margin-right:12px">3 שעות</div>
-   </div>
- 
-   <div class="trip-list-item">
-   <div class="trip-list-icon">${icons.hiking}</div>
-   <div class="flex column">
-   <div class="trip-list-item-title">נקבת חיזקיה</div>
-   <div class="trip-list-item-details">3 שעות</div>
-   </div>
+${Object.keys(data["center"])
+  .map((section) => {
+    let items = data["center"][section];
 
-   <div class="flex icons" style="margin-right:12px">${icons.up}${icons.down}${icons.trash}<div class="btn-small">הזמנה</div></div>
-   </div>
-   <div class="trip-list-img">
-   <img src="./Images/pins/jerusalem/nikbapng.png">
-   </div>
-   <div class="trip-list-item">
-   <div class="trip-list-icon">${icons.car}</div>
-   <div class="trip-list-item-title">נסיעה</div>
-   <div class="trip-list-item-details" style="margin-right:12px">3 שעות</div>
-   </div>
+    return ` <div class="trip-list-item flex align-center">
+    <div class="trip-list-icon">${icons.car}</div>
+    <div class="trip-list-item-title">נסיעה</div>
+    <div class="trip-list-item-details" style="margin-right:12px">3 שעות</div>
+    </div> 
+    <div class="item-suggestions flex">
+    ${items
+      .map(
+        (item) => `
+    <div class="trip-list-item">
+    <div class="item-details">
+       <div class="flex">
+          <div class="trip-list-icon">${icons.hiking}</div>
+          <div class="flex column">
+             <div class="trip-list-item-title">${item.name}</div>
+             <div class="trip-list-item-details">3 שעות</div>
+          </div>
+       </div>
+       <div class="btn-small">הזמנה</div>
+    </div>
+    <div class="trip-list-img" style="background-image:url(../App/components/Trip/img/${
+      item.image
+    }); background-position:center; background-size:cover">
+   
+    </div>
+<div class="item-description">${item.description ? item.description : ""}</div>
+    </div>
+    
+  
+    `
+      )
+      .join("")}
+      </div>
+ `;
+  })
+  .join("")}
 
 
-   <div class="trip-list-item">
-   <div class="trip-list-icon">${icons.winery}</div>
-   <div class="flex column">
-   <div class="trip-list-item-title">נקבת חיזקיה</div>
-   <div class="trip-list-item-details">3 שעות</div>
-   </div>
 
-   <div class="icons flex" >${icons.up}${icons.down}${icons.trash}<div class="btn-small">הזמנה</div></div>
-   </div>
-   <div class="trip-list-img">
-   <img src="./Images/pins/jerusalem/winery.jpeg">
-   </div>
-   <div class="trip-list-item">
-   <div class="trip-list-icon">${icons.car}</div>
-   <div class="trip-list-item-title">נסיעה</div>
-   <div class="trip-list-item-details" style="margin-right:12px">3 שעות</div>
-   </div>
-
-</div>
+    
+    </div>
     `
   );
 
   setTimeout(() => {
-    container.querySelectorAll(".card").forEach(
-      (card) =>
-        (card.onclick = () => {
-          console.log("go");
-          router("trip");
-        })
-    );
+    console.log(data);
   });
 };

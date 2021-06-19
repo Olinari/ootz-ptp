@@ -57,6 +57,7 @@ export const where = (state, setState) => {
         setTimeout(function () {
           field.setAttribute("style", "display:none;");
         }, 50);
+        field.remove();
       }, 50);
       router("when");
     });

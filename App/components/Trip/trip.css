@@ -29,25 +29,27 @@ main:not([page="trip"]) .trip-page {
 .trip-page .trip-list {
   padding: 16px;
   flex-direction: column;
-  display: flex;
+
   position: relative;
   overflow-y: scroll;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 150px);
 }
-.trip-page .trip-list-item {
+.item-details {
   display: flex;
-  margin-bottom: 16px;
+  justify-content: space-between;
+  padding-left: 14px;
 }
+
 .trip-list-item {
-  display: flex;
   align-items: center;
+  margin-bottom: 18px;
 }
 .trip-list-item-title {
   font-weight: bold;
 }
 .trip-list:after {
   content: "";
-  position: absolute;
+  position: fixed;
   right: 32px;
   height: calc(100% - 62px);
   top: 32px;
@@ -56,13 +58,17 @@ main:not([page="trip"]) .trip-page {
   border-right: 2px dashed black;
 }
 .trip-list-img {
-  margin-top: -10px;
-  margin-right: 60px;
-  margin-bottom: 24px;
+  margin-top: 8px;
+  margin-right: 40px;
+  width: calc(100vw - 150px);
+  max-width: 400px;
+  padding-top: 56.25%;
 }
-.trip-list-img img {
-  width: calc(100vw - 90px) !important;
+.item-description {
+  margin-top: 8px;
+  margin-right: 40px;
 }
+
 .trip-list-icon {
   margin-left: 24px;
 }
@@ -71,4 +77,24 @@ main:not([page="trip"]) .trip-page {
 }
 .icons {
   margin-right: 16px !important;
+}
+.item-suggestions {
+  width: auto;
+  scroll-snap-type: x mandatory;
+  overflow: scroll;
+  width: 100vw;
+}
+.item-suggestions > .trip-list-item {
+  scroll-snap-align: end;
+  margin-left: 20px;
+}
+.item-suggestions > .trip-list-item:last-child {
+  padding-left: 27%;
+}
+.btn-small {
+  align-self: center;
+  background: var(--main);
+  padding: 10px;
+  transform: translate(-12px);
+  border-radius: 3px;
 }
