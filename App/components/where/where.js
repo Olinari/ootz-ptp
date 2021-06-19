@@ -49,6 +49,7 @@ export const where = (state, setState) => {
     geocoder.on("result", function (e) {
       state.place = getRegion(e.result);
       setTimeout(() => {}, 1000);
+      document.queryCommandState("body").click();
       router("when");
     });
 
