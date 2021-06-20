@@ -57,17 +57,34 @@ ${Object.keys(data["center"])
     ${items
       .map(
         (item) => `
-    <div class="trip-list-item">
+    <div class="trip-list-item" id=${item.id}>
     <div class="item-details">
        <div class="flex align-center">
           <div class="trip-list-icon">${icons.hiking}</div>
           <div class="flex column">
-             <div class="trip-list-item-title">${item.name}</div>
-             <div class="trip-list-item-details">3 שעות</div>
+             <div class="trip-list-item-title" style="margin-bottom:8px;">${
+               item.name
+             }</div>
+             <div class="trip-list-item-details">
+             
+             <span class="info-span">${item.time[1] + " "}שעות</span>
+             
+            ${
+              item.price
+                ? `<span class="info-span">${
+                    item.price === "free"
+                      ? "חינם"
+                      : item.price[0] + "-" + item.price[1] + " ₪"
+                  }
+            </span>`
+                : ""
+            }
+             
+             </div>
           
           </div>
        </div>
-       <div class="btn-small">הזמנה</div>
+       <div class="btn-small order">הזמנה</div>
     </div>
     <div class="trip-list-img" style="background-image:url(../App/components/Trip/img/${
       item.image
@@ -101,11 +118,26 @@ ${item.description ? item.description : ""}
 
   setTimeout(() => {
     $(".rating").rating({
-      value: 4.5,
+      value: [4, 4.5, 5][Math.floor(Math.random() * 3)],
       stars: 5,
       color: "#FFCE00",
       half: true,
       readonly: true,
     });
   });
+
+  document.querySelectorAll(".order").forEach(
+    (order) =>
+      (order.onclick = (e) => {
+        let list = e.target.closest(".item-suggestions");
+        list.classList.add("ordered");
+        let id = e.target.closest(".trip-list-item").id;
+        list.querySelectorAll(".trip-list-item").forEach((item) => {
+          if (item.id != id) {
+            item.remove();
+          }
+          e.target.innerText = "צפה בהזמנה";
+        });
+      })
+  );
 };

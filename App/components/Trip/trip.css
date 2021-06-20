@@ -67,6 +67,14 @@ main:not([page="trip"]) .trip-page {
   width: calc(100vw - 150px);
   max-width: 400px;
   padding-top: 56.25%;
+  transition: width 0.5s ease-in-out;
+}
+.ordered .trip-list-img {
+  margin-top: 8px;
+  margin-right: 40px;
+  width: calc(100vw - 80px);
+  max-width: 400px;
+  padding-top: 56.25%;
 }
 .item-description {
   margin-top: 8px;
@@ -110,4 +118,29 @@ main:not([page="trip"]) .trip-page {
   color: white;
   transform: translate(-12px);
   border-radius: 313px;
+}
+.ordered .btn-small {
+  align-self: center;
+  background: var(--green--main);
+  padding: 8px 12px;
+
+  color: white;
+  transform: translate(-12px);
+  border-radius: 313px;
+}
+
+.info-span {
+  padding: 0px 5px;
+
+  max-width: 30%;
+  border-left: 1px solid #0000005c;
+}
+.info-span:first-of-type {
+  border-right: 1px solid #0000005c;
+}
+.rating * {
+  direction: ltr;
+}
+.ordered {
+  overflow: hidden !important;
 }
