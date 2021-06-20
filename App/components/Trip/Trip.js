@@ -34,7 +34,7 @@ export const trip = (state, setState) => {
     <div class="trip-details flex">
     <div>
     <div class="trip-title">
-    ${state.place}jfjjjh
+    ${state.place}jfjjlkjh
     </div>
     <div class="time">
     ${state.when}
