@@ -1,6 +1,7 @@
 import * as icons from "./icons.js";
-import { router } from "../../router.js";
+
 import { data } from "./tripData.js";
+import { debounce, getSize } from "../../functions.js";
 console.log(icons);
 
 //Append Styles
@@ -20,6 +21,8 @@ if (!exists) {
 }
 
 //icons and images
+
+let sectionIndex = 0;
 
 export const trip = (state, setState) => {
   console.log(state);
@@ -44,16 +47,18 @@ export const trip = (state, setState) => {
 </div>
 
 <div class="trip-list">
-${Object.keys(data["center"])
+${Object.keys(data[state.dataLocation])
+
   .map((section) => {
-    let items = data["center"][section];
+    console.log(section);
+    let items = data[state.dataLocation][section];
 
     return ` <div class="trip-list-item flex align-center">
     <div class="trip-list-icon">${icons.car}</div>
     <div class="trip-list-item-title">נסיעה</div>
     <div class="trip-list-item-details" style="margin-right:12px">3 שעות</div>
     </div> 
-    <div class="item-suggestions flex">
+    <div class="item-suggestions flex" id=${++sectionIndex}>
     ${items
       .map(
         (item) => `
@@ -126,6 +131,22 @@ ${item.description ? item.description : ""}
     });
   });
 
+  //get location onScroll
+
+  document.querySelectorAll(".item-suggestions").forEach((list) => {
+    var index = 0;
+    list.onscroll = (e) => {
+      let newindex = Math.floor(
+        (e.target.scrollLeft * -1) /
+          getSize(e.target.querySelector(".trip-list-item")).width
+      );
+      if (newindex != index) {
+        index = newindex;
+        updateTime(list.id, index);
+      }
+    };
+  });
+  //order an attraction
   document.querySelectorAll(".order").forEach(
     (order) =>
       (order.onclick = (e) => {
@@ -140,4 +161,11 @@ ${item.description ? item.description : ""}
         });
       })
   );
+  const updateTime = (sectionindex, locationIndex) => {
+    let newLocation =
+      data[state.dataLocation][sectionindex][locationIndex].location;
+
+    if (data[state.dataLocation][sectionindex - 1]) {
+    }
+  };
 };

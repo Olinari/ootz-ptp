@@ -1,6 +1,11 @@
 import { Actions } from "./actions.js";
 
-export function State(state = {}) {
+export function State(
+  state = {
+    myLocation: [32.11159231031344, 35.17374926976709],
+    dataLocation: "center",
+  }
+) {
   class PubSub {
     constructor() {
       this.events = {};
