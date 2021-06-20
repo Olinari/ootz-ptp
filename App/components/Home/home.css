@@ -84,11 +84,7 @@ main:not([page="home"]) .home {
 .trip-details {
   padding: 12px 12px 0px 12px;
 }
-.trip-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
+
 .tags {
   transform: translate(0px, -2px);
 }

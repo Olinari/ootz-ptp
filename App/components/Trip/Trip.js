@@ -59,11 +59,12 @@ ${Object.keys(data["center"])
         (item) => `
     <div class="trip-list-item">
     <div class="item-details">
-       <div class="flex">
+       <div class="flex align-center">
           <div class="trip-list-icon">${icons.hiking}</div>
           <div class="flex column">
              <div class="trip-list-item-title">${item.name}</div>
              <div class="trip-list-item-details">3 שעות</div>
+          
           </div>
        </div>
        <div class="btn-small">הזמנה</div>
@@ -73,7 +74,13 @@ ${Object.keys(data["center"])
     }); background-position:center; background-size:cover">
    
     </div>
-<div class="item-description">${item.description ? item.description : ""}</div>
+
+<div class="item-description">
+<div class="rating" rating="${item.rating}"></div>
+<div style="margin-top:8px">
+${item.description ? item.description : ""}
+</div>
+</div>
     </div>
     
   
@@ -93,6 +100,12 @@ ${Object.keys(data["center"])
   );
 
   setTimeout(() => {
-    console.log(data);
+    $(".rating").rating({
+      value: 4.5,
+      stars: 5,
+      color: "#FFCE00",
+      half: true,
+      readonly: true,
+    });
   });
 };

@@ -25,6 +25,7 @@ main:not([page="trip"]) .trip-page {
 .trip-page .trip-title {
   position: sticky;
   font-size: 18px;
+  font-weight: bold;
 }
 .trip-page .trip-list {
   padding: 16px;
@@ -38,14 +39,17 @@ main:not([page="trip"]) .trip-page {
   display: flex;
   justify-content: space-between;
   padding-left: 14px;
+  font-size: 13px;
 }
 
 .trip-list-item {
   align-items: center;
   margin-bottom: 18px;
+  max-height: 350px;
 }
 .trip-list-item-title {
   font-weight: bold;
+  font-size: 15px;
 }
 .trip-list:after {
   content: "";
@@ -71,6 +75,14 @@ main:not([page="trip"]) .trip-page {
 
 .trip-list-icon {
   margin-left: 24px;
+  transform: translate(0px, 4px);
+}
+
+.item-suggestions .trip-list-icon {
+  transform: translate(0px, -1px);
+}
+.item-description {
+  font-size: 13px;
 }
 .icons svg {
   margin-left: 24px;
@@ -93,8 +105,10 @@ main:not([page="trip"]) .trip-page {
 }
 .btn-small {
   align-self: center;
-  background: var(--main);
-  padding: 10px;
+  background: var(--blue--main);
+  padding: 8px 12px;
+
+  color: white;
   transform: translate(-12px);
-  border-radius: 3px;
+  border-radius: 313px;
 }

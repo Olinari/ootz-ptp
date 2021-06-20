@@ -3,6 +3,11 @@
   scroll-behavior: auto;
   scroll-behavior: smooth;
 }
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
 body {
   height: 100vh;
 }

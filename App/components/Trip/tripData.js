@@ -4,7 +4,7 @@ export const data = {
       {
         name: "טיול באגמון פולג",
         id: "c11",
-        review: 4.5,
+        rating: 4.5,
         price: "free",
         time: [2, 2],
         description: `מחצבת כורכר נטושה שמלאה במי תהום וסביבה שביל הליכה מעגלי ומסודר`,
@@ -22,7 +22,7 @@ export const data = {
       {
         name: `גן לאומי חוף שרון`,
         id: "c12",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [2, 2],
         description: `צוקי כורכר מדהימים על קו החוף, בהם עובר מסלול מעגלי`,
@@ -40,7 +40,7 @@ export const data = {
       {
         name: `גן בוטני יער אילנות`,
         id: "c13",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [2, 2],
         description: `יער גדול המשמש בית למאות סוגי עצים מכל העולם`,
@@ -60,7 +60,7 @@ export const data = {
       {
         name: "טיול בשמורת בני ציון",
         id: "c21",
-        review: 4.5,
+        rating: 4.5,
         price: "free",
         time: [2, 2],
         description: "שתי גבעות כורכר שופעות פריחה משתנה",
@@ -78,7 +78,7 @@ export const data = {
       {
         name: "גן אפולוניה",
         id: "c22",
-        review: 4.5,
+        rating: 4.5,
         price: [11, 28],
         time: [2, 3],
         description: `אתר ארכיאולוגי מהמאה השישית לפני הספירה, עם שרידי עיר קדומה ומבצר צלבני עתיק`,
@@ -96,7 +96,7 @@ export const data = {
       {
         name: `מרכז המבקרים יער אילנות`,
         id: "c23",
-        review: 5,
+        rating: 5,
         price: [10, 18],
         time: [2, 2],
         description: ` מרכז מבקרים חדשני, המוקדש כולו ליצירה המופלאה של הטבע – עצים, יער וסביבה, משלב את הטכנולוגיות החדישות ביותר בתחום, ומציע למבקרים בו חוויה מיוחדת במינה.`,
@@ -116,7 +116,7 @@ export const data = {
       {
         name: "פארמה קולטורה",
         id: "c31",
-        review: 4,
+        rating: 4,
         price: [95, 195],
         time: [1, 1],
         description: "חווה אורגנית המציעה חנות לרכישת ירקות שנקטפו ישר מהשדה",
@@ -135,7 +135,7 @@ export const data = {
       {
         name: `לגעת בטבע`,
         id: "c32",
-        review: 4,
+        rating: 4,
         price: [20, 40],
         time: [1, 1],
         description: `מרכז מבקרים לתיירות חקלאית ופינת חי`,
@@ -153,7 +153,7 @@ export const data = {
       {
         name: `קטיף תותים בקיבוץ משמר השרון`,
         id: "c33",
-        review: 4,
+        rating: 4,
         price: [25, 25],
         time: [1, 1],
         description: "חווה אורגנית המציעה חנות לרכישת ירקות שנקטפו ישר מהשדה",
@@ -173,7 +173,7 @@ export const data = {
       {
         name: "סאן קפה",
         id: "c41",
-        review: 4,
+        rating: 4,
         time: [1, 1],
         location: [32.21869207830098, 34.86571147376603],
         workingHours: "always",
@@ -189,7 +189,7 @@ export const data = {
       {
         name: `קפה פרסה`,
         id: "c42",
-        review: 4,
+        rating: 4,
         time: [1, 1],
         location: [32.21869207830098, 34.86571147376603],
         workingHours: ["9:00", "18:00"],
@@ -205,7 +205,7 @@ export const data = {
       {
         name: `ביסטרו גרציא`,
         id: "c43",
-        review: 4,
+        rating: 4,
         price: [95, 195],
         time: [1, 1],
         location: [32.21869207830098, 34.86571147376603],
@@ -226,7 +226,7 @@ export const data = {
       {
         name: "הג׳ובה הגדולה",
         id: "n11",
-        review: 4,
+        rating: 4,
         price: "free",
         time: [1.5, 2],
         description: `בור וולקני טבעי ועצום בעומק 60 מטרים ובקוטר 200 מטרים - תופעת טבע מרתקת שסביבה מסלול הליכה מקסים`,
@@ -244,7 +244,7 @@ export const data = {
       {
         name: "עגלת קפה בית לחם הגלילית",
         id: "n12",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [0.5, 1],
         description: `בור וולקני טבעי ועצום בעומק 60 מטרים ובקוטר 200 מטרים - תופעת טבע מרתקת שסביבה מסלול הליכה מקסים`,
@@ -262,7 +262,7 @@ export const data = {
       {
         name: "עין אביאל",
         id: "n13",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [4, 4],
         description: `יובל של נחל התנינים ניתן ללכת במיםֿ יש אפשרות לשבת במערה מאחורי מפל`,
@@ -281,7 +281,7 @@ export const data = {
       {
         name: `פארק עורבים`,
         id: "n21",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [2, 2],
         description: `.שבילי הליכה שמובילים לארמון האמיר, מתקני פיקנק, גשרוני עץ ושבילי בזלת`,
@@ -299,7 +299,7 @@ export const data = {
       {
         name: "שביל פרות החלב",
         id: "n22",
-        review: 5,
+        rating: 5,
         price: [42],
         time: [0.5, 1],
         description: `סיור ברפת, ליטוף והאכלה של חיות`,
@@ -317,7 +317,7 @@ export const data = {
       {
         name: `עגלת קפה ציפורה`,
         id: "n23",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [1, 2],
         description:
@@ -338,7 +338,7 @@ export const data = {
       {
         name: `יער איילים`,
         id: "n31",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [1, 2],
         description: `.מתחם אטרקציות שמציע פינת חי וליטוף שעשועי ספורט ומסלול אתגרי`,
@@ -356,7 +356,7 @@ export const data = {
       {
         name: "שמורת אלוני אבא",
         id: "n32",
-        review: 5,
+        rating: 5,
         price: [42],
         time: [1, 2],
         description: "יער עצי אלון התבור",
@@ -374,7 +374,7 @@ export const data = {
       {
         name: `פארק אלונה`,
         id: "n33",
-        review: 5,
+        rating: 5,
         price: "free",
         time: [1, 2],
         description: `הליכה בנקבת מים עתיקה מימי הרומאים מתחת לאדמה`,
@@ -394,7 +394,7 @@ export const data = {
       {
         name: `מתחם במבוק פארק`,
         id: "n41",
-        review: 4,
+        rating: 4,
         price: [40, 100],
         time: [1, 2],
         description: `ביקור במתחם במבוק פארק ובית הקפה הצף בברכת רם`,
@@ -412,7 +412,7 @@ export const data = {
       {
         name: "אסאדו בר",
         id: "n42",
-        review: 4,
+        rating: 4,
         time: [1, 2],
         location: [32.32721838084580995, 35.14140348465952],
         workingHours: ["12:00", "10:00"],
@@ -428,7 +428,7 @@ export const data = {
       {
         name: "ההר העגול",
         id: "n43",
-        review: 4,
+        rating: 4,
         time: [1, 2],
         description: `טיול טבע קצקצר, בראש ההר אנדטרת זיכרון לגדוד 890`,
         location: [32.56470372168204, 35.031675827348685],
@@ -445,7 +445,7 @@ export const data = {
       {
         name: "ההר העגול",
         id: "n43",
-        review: 4,
+        rating: 4,
         time: [1, 2],
         description: `טיול טבע קצקצר, בראש ההר אנדטרת זיכרון לגדוד 890`,
         location: [32.56470372168204, 35.031675827348685],
@@ -466,7 +466,7 @@ export const data = {
       {
         name: "פארק עמק הצביים",
         id: "j11",
-        review: 4,
+        rating: 4,
         price: "free",
         time: [1.5, 4],
         description:
