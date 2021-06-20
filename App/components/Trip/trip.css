@@ -91,16 +91,16 @@ main:not([page="trip"]) .trip-page {
   margin-right: 16px !important;
 }
 .item-suggestions {
-  scroll-snap-type: x mandatory;
-  overflow: scroll;
-  width: 100vw;
+  scroll-snap-type: x mandatory !important;
+  overflow: scroll !important;
+  width: 100vw !important;
 }
 .item-suggestions > .trip-list-item {
-  scroll-snap-align: start end;
-  margin-left: 20px;
+  scroll-snap-align: start end !important;
+  margin-left: 20px !important;
 }
 .item-suggestions > .trip-list-item:last-child {
-  padding-left: 100px;
+  padding-left: 155px !important;
 }
 .btn-small {
   align-self: center;
