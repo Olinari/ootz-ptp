@@ -34,14 +34,14 @@ export const trip = (state, setState) => {
     <div class="trip-details flex">
     <div>
     <div class="trip-title">
-    ${state.place}jfjjlkjh
+    ${state.place}
     </div>
     <div class="time">
     ${state.when}
     </div>
     </div>
     ${icons.mapListToggle}
-</div>ß
+</div>
 
 <div class="trip-list">
 ${Object.keys(data["center"])
