@@ -100,7 +100,7 @@ main:not([page="trip"]) .trip-page {
   margin-left: 20px !important;
 }
 .item-suggestions > .trip-list-item:last-child {
-  padding-left: 100px !important;
+  padding-left: 120px !important;
 }
 .btn-small {
   align-self: center;
