@@ -22,9 +22,8 @@ if (!exists) {
 
 //icons and images
 
-let sectionIndex = 0;
-
 export const trip = (state, setState) => {
+  let sectionIndex = 0;
   console.log(state);
   let container = document.querySelector("main");
 
@@ -135,14 +134,14 @@ ${item.description ? item.description : ""}
 
   document.querySelectorAll(".item-suggestions").forEach((list) => {
     let time = updateTime(list.id, 0);
+    if (time) {
+      let hours = time[0] + ` שעות ` + ` ו `;
+      let mins = time[1] + ` דקות `;
 
-    let hours = time[0] + ` שעות ` + ` ו `;
-    let mins = time[1] + ` דקות `;
-
-    document.querySelector(
-      `[section="${list.id}"] .trip-list-item-details`
-    ).innerText = time[0] ? hours + mins : mins;
-
+      document.querySelector(
+        `[section="${list.id}"] .trip-list-item-details`
+      ).innerText = time[0] ? hours + mins : mins;
+    }
     var index = 0;
     list.onscroll = (e) => {
       if (!state.yield) {
@@ -153,13 +152,14 @@ ${item.description ? item.description : ""}
         if (newindex != index) {
           index = newindex;
           let time = updateTime(list.id, index);
+          if (time) {
+            let hours = time[0] + ` שעות ` + ` ו `;
+            let mins = time[1] + ` דקות `;
 
-          let hours = time[0] + ` שעות ` + ` ו `;
-          let mins = time[1] + ` דקות `;
-
-          document.querySelector(
-            `[section="${list.id}"] .trip-list-item-details`
-          ).innerText = time[0] ? hours + mins : mins;
+            document.querySelector(
+              `[section="${list.id}"] .trip-list-item-details`
+            ).innerText = time[0] ? hours + mins : mins;
+          }
         }
       }
     };
@@ -185,36 +185,41 @@ ${item.description ? item.description : ""}
   );
 
   function updateTime(sectionindex, locationIndex) {
-    let newLocation =
-      data[state.dataLocation][sectionindex][locationIndex].location;
+    console.log(data[state.dataLocation]);
+    console.log(sectionindex, locationIndex);
 
-    let prevLocation = state.myLocation;
+    if (data[state.dataLocation][sectionindex]) {
+      let newLocation =
+        data[state.dataLocation][sectionindex][locationIndex].location;
 
-    if (data[state.dataLocation][sectionindex - 1]) {
-      prevLocation =
-        data[state.dataLocation][sectionindex - 1][locationIndex].location;
+      let prevLocation = state.myLocation;
+
+      if (data[state.dataLocation][sectionindex - 1]) {
+        prevLocation =
+          data[state.dataLocation][sectionindex - 1][locationIndex].location;
+      }
+
+      const lat1 = newLocation[0];
+      const lon1 = newLocation[1];
+      const lat2 = prevLocation[0];
+      const lon2 = prevLocation[1];
+
+      const R = 6371e3; // metres
+      const φ1 = (lat1 * Math.PI) / 180; // φ, λ in radians
+      const φ2 = (lat2 * Math.PI) / 180;
+      const Δφ = ((lat2 - lat1) * Math.PI) / 180;
+      const Δλ = ((lon2 - lon1) * Math.PI) / 180;
+
+      const a =
+        Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+        Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+      const d = R * c; // in metres
+      let time = Math.floor((d / 1000) * 2);
+      time = timeConvert(time);
+      return time;
     }
-
-    const lat1 = newLocation[0];
-    const lon1 = newLocation[1];
-    const lat2 = prevLocation[0];
-    const lon2 = prevLocation[1];
-
-    const R = 6371e3; // metres
-    const φ1 = (lat1 * Math.PI) / 180; // φ, λ in radians
-    const φ2 = (lat2 * Math.PI) / 180;
-    const Δφ = ((lat2 - lat1) * Math.PI) / 180;
-    const Δλ = ((lon2 - lon1) * Math.PI) / 180;
-
-    const a =
-      Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
-      Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-
-    const d = R * c; // in metres
-    let time = Math.floor((d / 1000) * 2);
-    time = timeConvert(time);
-    return time;
   }
 };
 function timeConvert(n) {
