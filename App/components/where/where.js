@@ -70,23 +70,23 @@ export const where = (state, setState) => {
     var name = "ישראל";
     if (place.place_name.includes("מחוז תל אביב")) {
       name = "איזור תל אביב";
-      state.data.location = "center";
+      state.dataLocation = "center";
     }
     if (place.place_name.includes("מחוז הצפון")) {
       name = "איזור הצפון";
-      state.data.location = "north";
+      state.dataLocation = "north";
     }
     if (place.place_name.includes("מחוז הדרום")) {
       name = "איזור הדרום";
-      state.data.location = "south";
+      state.dataLocation = "south";
     }
     if (place.place_name.includes("מחוז ירושלים")) {
       name = "איזור ירושלים";
-      state.data.location = "jerusalem";
+      state.dataLocation = "jerusalem";
     }
     if (place.place_name.includes("מחוז המרכז")) {
       name = "איזור המרכז";
-      state.data.location = "center";
+      state.dataLocation = "center";
     }
     return name;
   }
