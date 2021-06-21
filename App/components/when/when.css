@@ -72,10 +72,10 @@ main:not([page="when"]) .when {
 .loader {
   opacity: 0;
   position: absolute;
-  transform: translate(30px, -10px) scale(0.5);
+  transform: translate(30px, -60px) scale(0.5);
 }
 .load .loader {
   opacity: 1;
   position: absolute;
-  transform: translate(30px, -10px) scale(0.5);
+  transform: translate(30px, -60px) scale(0.5);
 }
