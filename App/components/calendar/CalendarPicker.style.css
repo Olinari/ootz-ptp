@@ -13,6 +13,7 @@
 #calendar-wrapper header h4 {
   padding: 0;
   margin: 0;
+  font-weight: 400;
 }
 
 #calendar {
@@ -29,7 +30,7 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
-  gap: 7px;
+  gap: 6px;
   box-sizing: inherit;
   margin: 1px;
 }
@@ -93,6 +94,8 @@
   box-sizing: inherit;
   padding: 1em 0em 0em -0.5em;
   margin: 0;
+  margin-bottom: -20px;
+  margin-top: -10px;
 }
 
 #navigation-wrapper button {

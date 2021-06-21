@@ -191,7 +191,7 @@ CalendarPicker.prototype._insertCalendarIntoWrapper = function () {
  */
 CalendarPicker.prototype._insertHeaderIntoCalendarWrapper = function () {
   this.calendarHeaderTitle.textContent =
-    this.listOfAllMonthsAsText[this.month] + " - " + this.year;
+    this.listOfAllMonthsAsText[this.month] + "  " + this.year;
   this.calendarHeader.appendChild(this.calendarHeaderTitle);
 };
 
@@ -324,7 +324,7 @@ CalendarPicker.prototype._updateCalendar = function () {
   var that = this;
   window.requestAnimationFrame(function () {
     that.calendarHeaderTitle.textContent =
-      that.listOfAllMonthsAsText[that.month] + " - " + that.year;
+      that.listOfAllMonthsAsText[that.month] + "  " + that.year;
     that._insertDaysIntoGrid();
   });
 };
