@@ -32,6 +32,7 @@ export const splash = (state, setState) => {
     "afterbegin",
     `<div class="splash">
     <img src="./images/img/boat.png" width="250px">
+    
     <img src="./images/img/logos.png" width="200px" style="position:absolute; top:calc(50% - 60px); left:calc(50% - 100px);">
     <img src="./images/img/roller.png" width="150px" style="position:absolute; top:0px; left:-1px;">
     <img src="./images/img/statue.png" width="96px" style="position:absolute; top:36%;">
