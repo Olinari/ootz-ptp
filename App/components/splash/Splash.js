@@ -3,7 +3,7 @@ import { router } from "../../router.js";
 //Append Styles
 
 var exists = false;
-var href = "../App/component/splash/Splash.css";
+var href = "../App/components/splash/Splash.css";
 document.querySelectorAll("link").forEach((link) => {
   if (link.getAttribute("href") === href) {
     exists = true;
