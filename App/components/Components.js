@@ -1,4 +1,4 @@
-import { topBar } from "./TopBar/TopBar.js";ֿ
+import { topBar } from "./TopBar/TopBar.js";
 import { splash } from "./splash/Splash.js";
 import { where } from "./where/where.js";
 import { when } from "./when/when.js";
