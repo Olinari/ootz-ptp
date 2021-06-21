@@ -164,7 +164,7 @@ ${item.description ? item.description : ""}
   const updateTime = (sectionindex, locationIndex) => {
     let newLocation =
       data[state.dataLocation][sectionindex][locationIndex].location;
-
+    console.log(data[state.dataLocation][sectionindex]);
     if (data[state.dataLocation][sectionindex - 1]) {
     }
   };

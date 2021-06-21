@@ -1,8 +1,9 @@
 import * as icons from "./icons.js";
 import { router } from "../../router.js";
 //Append Styles
-var href = "../App/components/Splash/Splash.css";
+
 var exists = false;
+var href = "../App/component/splash/Splash.css";
 document.querySelectorAll("link").forEach((link) => {
   if (link.getAttribute("href") === href) {
     exists = true;
