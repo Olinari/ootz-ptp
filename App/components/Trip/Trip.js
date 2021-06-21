@@ -41,8 +41,9 @@ export const trip = (state, setState) => {
     <div class="time">
     ${state.when}
     </div>
+  
     </div>
-    ${icons.mapListToggle}
+    <div class="trip-btn">התאמה אישית</div>
 </div>
 
 <div class="trip-list">

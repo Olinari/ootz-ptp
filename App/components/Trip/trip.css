@@ -142,3 +142,17 @@ main:not([page="trip"]) .trip-page {
 .ordered {
   overflow: hidden !important;
 }
+.trip-btn {
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px 2px 16px;
+  margin-left: 20px;
+  margin-top: 4px;
+  border-radius: 200px;
+}
+time {
+  font-weight: 300;
+  font-size: 14;
+}

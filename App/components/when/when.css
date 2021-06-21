@@ -23,7 +23,7 @@ main:not([page="when"]) .when {
   display: flex;
 }
 .when-head.sec {
-  transform: translate(0px, -30px);
+  transform: translate(0px, 0px);
 }
 .previous-month svg {
   transform: scale(0.5);
@@ -47,7 +47,7 @@ main:not([page="when"]) .when {
 .when .categories {
   width: 100%;
   overflow: scroll;
-  transform: translate(0px, -14px);
+  transform: translate(0px, 15px);
 }
 .when .category {
   display: flex;
