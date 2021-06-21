@@ -5,6 +5,7 @@ export function State(
     myLocation: [32.11159231031344, 35.17374926976709],
     when: moment(new Date().now).locale("il").format("MMMM DD"),
     dataLocation: "center",
+    categories: [],
   }
 ) {
   class PubSub {
