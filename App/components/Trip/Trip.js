@@ -145,20 +145,22 @@ ${item.description ? item.description : ""}
 
     var index = 0;
     list.onscroll = (e) => {
-      let newindex = Math.floor(
-        (e.target.scrollLeft * -1) /
-          getSize(e.target.querySelector(".trip-list-item")).width
-      );
-      if (newindex != index) {
-        index = newindex;
-        let time = updateTime(list.id, index);
+      if (!state.yield) {
+        let newindex = Math.floor(
+          (e.target.scrollLeft * -1) /
+            getSize(e.target.querySelector(".trip-list-item")).width
+        );
+        if (newindex != index) {
+          index = newindex;
+          let time = updateTime(list.id, index);
 
-        let hours = time[0] + ` שעות ` + ` ו `;
-        let mins = time[1] + ` דקות `;
+          let hours = time[0] + ` שעות ` + ` ו `;
+          let mins = time[1] + ` דקות `;
 
-        document.querySelector(
-          `[section="${list.id}"] .trip-list-item-details`
-        ).innerText = time[0] ? hours + mins : mins;
+          document.querySelector(
+            `[section="${list.id}"] .trip-list-item-details`
+          ).innerText = time[0] ? hours + mins : mins;
+        }
       }
     };
   });
@@ -166,6 +168,7 @@ ${item.description ? item.description : ""}
   document.querySelectorAll(".order").forEach(
     (order) =>
       (order.onclick = (e) => {
+        state.yield = 1;
         let list = e.target.closest(".item-suggestions");
         list.classList.add("ordered");
         let id = e.target.closest(".trip-list-item").id;
@@ -175,6 +178,9 @@ ${item.description ? item.description : ""}
           }
           e.target.innerText = "צפה בהזמנה";
         });
+        setTimeout(() => {
+          state.yield = 0;
+        }, 2000);
       })
   );
 

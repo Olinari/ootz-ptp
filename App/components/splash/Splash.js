@@ -47,7 +47,7 @@ export const splash = (state, setState) => {
     `
   );
 
-  const nextBtn = document.querySelector(".splash-btn");
+  const nextBtn = document.querySelector(".splash .splash-btn");
   nextBtn.onclick = () => {
     router("where", state, setState);
   };
