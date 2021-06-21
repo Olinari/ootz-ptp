@@ -3,7 +3,7 @@ import { topBar } from "./TopBar/TopBar.js";
 import { where } from "./where/where.js";
 import { when } from "./when/when.js";
 import { trip } from "./Trip/Trip.js";
-import { splash } from "./Splash/Splash.js";
+import { splash } from "./splash/Splash.js";
 
 export const components = (state, setState) => {
   topBar(state, setState);
