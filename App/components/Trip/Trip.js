@@ -146,24 +146,19 @@ ${item.description ? item.description : ""}
     var index = 0;
     list.onscroll = (e) => {
       if (!state.yield) {
-        let newindex = Math.floor(
-          (e.target.scrollLeft * -1) /
+        let index = Math.floor(
+          e.target.scrollLeft /
             getSize(e.target.querySelector(".trip-list-item")).width
         );
-        document.querySelector(
-          `[section="${list.id}"] .trip-list-item-details`
-        ).innerText = newindex + "," + index;
-        if (newindex != index) {
-          index = newindex;
-          let time = updateTime(list.id, index);
-          if (time) {
-            let hours = time[0] + ` שעות ` + ` ו `;
-            let mins = time[1] + ` דקות `;
 
-            document.querySelector(
-              `[section="${list.id}"] .trip-list-item-details`
-            ).innerText = time[0] ? hours + mins : mins;
-          }
+        let time = updateTime(list.id, index);
+        if (time) {
+          let hours = time[0] + ` שעות ` + ` ו `;
+          let mins = time[1] + ` דקות `;
+
+          document.querySelector(
+            `[section="${list.id}"] .trip-list-item-details`
+          ).innerText = time[0] ? hours + mins : mins;
         }
       }
     };
