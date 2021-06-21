@@ -5,8 +5,6 @@ export const car = `
 <path d="M13.8876 19.652C13.8863 20.2512 13.426 20.7399 12.8641 20.739C12.2988 20.7381 11.8431 20.2535 11.8427 19.652C11.8422 19.0419 12.2958 18.5604 12.8691 18.5618C13.4344 18.5631 13.8889 19.05 13.8876 19.652Z" fill="black"/>
 <path d="M21.3722 19.6515C21.3713 19.0496 21.8249 18.5636 22.3906 18.5618C22.9636 18.5595 23.4176 19.0419 23.4171 19.652C23.4167 20.2526 22.9581 20.7404 22.3957 20.7386C21.8304 20.7372 21.373 20.2512 21.3722 19.6515Z" fill="black"/>
 </svg>
-
-
 `;
 
 export const hiking = `
@@ -56,5 +54,12 @@ export const mapListToggle = `<svg width="73" height="28" style="transform:trans
 <path d="M6.28406 14.0828H6.29406" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M6.28406 19.0532H6.29406" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="39.7841" y1="2.15381" x2="39.7841" y2="25.0177" stroke="black" stroke-opacity="0.2"/>
+</svg>`;
+
+export const filters = `<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="2.56952" y1="4.14191" x2="15.5235" y2="4.14191" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<line x1="2.56952" y1="11.4647" x2="15.5235" y2="11.4647" stroke="black" stroke-width="2" stroke-linecap="round"/>
+<circle cx="14.6768" cy="4.18567" r="2.70636" fill="white" stroke="black" stroke-width="2"/>
+<circle cx="4.2251" cy="11.0052" r="2.70636" fill="white" stroke="black" stroke-width="2"/>
 </svg>
 `;
