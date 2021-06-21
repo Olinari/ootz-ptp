@@ -150,6 +150,10 @@ ${item.description ? item.description : ""}
           (e.target.scrollLeft * 1) /
             getSize(e.target.querySelector(".trip-list-item")).width
         );
+
+        document.querySelector(
+          `[section="${list.id}"] .trip-list-item-details`
+        ).innerText = newindex;
         if (newindex != index) {
           index = newindex;
           let time = updateTime(list.id, index);
