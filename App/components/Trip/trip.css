@@ -86,9 +86,6 @@ main:not([page="trip"]) .trip-page {
   transform: translate(0px, 4px);
 }
 
-.item-suggestions .trip-list-icon {
-  transform: translate(0px, -1px);
-}
 .item-description {
   font-size: 13px;
 }
