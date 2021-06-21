@@ -2,6 +2,7 @@ import * as icons from "./icons.js";
 
 import { data } from "./tripData.js";
 import { debounce, getSize } from "../../functions.js";
+import { router } from "../../router.js";
 console.log(icons);
 
 //Append Styles
@@ -180,6 +181,13 @@ ${item.description ? item.description : ""}
         setTimeout(() => {
           state.yield = 0;
         }, 2000);
+      })
+  );
+
+  document.querySelectorAll(".trip-btn").forEach(
+    (trb) =>
+      (trb.onclick = (e) => {
+        router("filters");
       })
   );
 

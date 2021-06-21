@@ -1,0 +1,9 @@
+main:not([page="filters"]) .filters {
+  transform: translate(0px, -10000px);
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+.ggg {
+  transform: translate(0px, 70px);
+}
