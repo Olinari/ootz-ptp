@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-arround;
 }
-[page="splash"] .topbar {
+[page="splash"] .topbar,
+[page="filters"] .topbar {
   display: none;
 }
