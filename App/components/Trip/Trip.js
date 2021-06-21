@@ -53,12 +53,12 @@ ${Object.keys(data[state.dataLocation])
     console.log(section);
     let items = data[state.dataLocation][section];
 
-    return ` <div class="trip-list-item flex align-center">
+    return ` <div class="trip-list-item flex align-center" section="${++sectionIndex}">
     <div class="trip-list-icon">${icons.car}</div>
     <div class="trip-list-item-title">נסיעה</div>
     <div class="trip-list-item-details" style="margin-right:12px">3 שעות</div>
     </div> 
-    <div class="item-suggestions flex" id=${++sectionIndex}>
+    <div class="item-suggestions flex" id=${sectionIndex}>
     ${items
       .map(
         (item) => `
@@ -134,6 +134,15 @@ ${item.description ? item.description : ""}
   //get location onScroll
 
   document.querySelectorAll(".item-suggestions").forEach((list) => {
+    let time = updateTime(list.id, 0);
+
+    let hours = time[0] + ` שעות ` + ` ו `;
+    let mins = time[1] + ` דקות `;
+
+    document.querySelector(
+      `[section="${list.id}"] .trip-list-item-details`
+    ).innerText = time[0] ? hours + mins : mins;
+
     var index = 0;
     list.onscroll = (e) => {
       let newindex = Math.floor(
@@ -142,7 +151,14 @@ ${item.description ? item.description : ""}
       );
       if (newindex != index) {
         index = newindex;
-        updateTime(list.id, index);
+        let time = updateTime(list.id, index);
+
+        let hours = time[0] + ` שעות ` + ` ו `;
+        let mins = time[1] + ` דקות `;
+
+        document.querySelector(
+          `[section="${list.id}"] .trip-list-item-details`
+        ).innerText = time[0] ? hours + mins : mins;
       }
     };
   });
@@ -161,11 +177,45 @@ ${item.description ? item.description : ""}
         });
       })
   );
-  const updateTime = (sectionindex, locationIndex) => {
+
+  function updateTime(sectionindex, locationIndex) {
     let newLocation =
       data[state.dataLocation][sectionindex][locationIndex].location;
-    console.log(data[state.dataLocation][sectionindex]);
+
+    let prevLocation = state.myLocation;
+
     if (data[state.dataLocation][sectionindex - 1]) {
+      prevLocation =
+        data[state.dataLocation][sectionindex - 1][locationIndex].location;
     }
-  };
+
+    const lat1 = newLocation[0];
+    const lon1 = newLocation[1];
+    const lat2 = prevLocation[0];
+    const lon2 = prevLocation[1];
+
+    const R = 6371e3; // metres
+    const φ1 = (lat1 * Math.PI) / 180; // φ, λ in radians
+    const φ2 = (lat2 * Math.PI) / 180;
+    const Δφ = ((lat2 - lat1) * Math.PI) / 180;
+    const Δλ = ((lon2 - lon1) * Math.PI) / 180;
+
+    const a =
+      Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+      Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+    const d = R * c; // in metres
+    let time = Math.floor((d / 1000) * 2);
+    time = timeConvert(time);
+    return time;
+  }
 };
+function timeConvert(n) {
+  var num = n;
+  var hours = num / 60;
+  var rhours = Math.floor(hours);
+  var minutes = (hours - rhours) * 60;
+  var rminutes = Math.round(minutes);
+  return [rhours, rminutes];
+}
