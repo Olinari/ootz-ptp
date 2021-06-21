@@ -34,7 +34,7 @@ main:not([page="when"]) .when {
   width: fit-content;
   padding: 12px 36px;
   border-radius: 100px;
-  bottom: 120px;
+  bottom: 128px;
   position: absolute;
   z-index: 9999;
   cursor: pointer;
