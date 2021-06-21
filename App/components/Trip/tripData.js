@@ -331,7 +331,7 @@ export const data = {
         level: 0,
         tags: ["food"],
         for: ["couple", "group", "family"],
-        image: "north/zipora.png",
+        image: "north/cafe-zipora.png",
       },
     ],
     3: [
@@ -425,6 +425,7 @@ export const data = {
         for: ["couple", "group", "family"],
         image: "north/asado-bar.png",
       },
+
       {
         name: "ההר העגול",
         id: "n43",
@@ -440,24 +441,7 @@ export const data = {
         level: 1,
         tags: ["nature", "picnic"],
         for: ["couple", "group", "family"],
-        image: "north/asado-bar.png",
-      },
-      {
-        name: "ההר העגול",
-        id: "n43",
-        rating: 4,
-        time: [1, 2],
-        description: `טיול טבע קצקצר, בראש ההר אנדטרת זיכרון לגדוד 890`,
-        location: [32.56470372168204, 35.031675827348685],
-        workingHours: "always",
-        phone: "054-420-0291",
-        parking: true,
-        handicap: true,
-        seasons: ["winter", "spring", "summer", "fall"],
-        level: 1,
-        tags: ["nature", "picnic"],
-        for: ["couple", "group", "family"],
-        image: "north/agol.png",
+        image: "north/agol.jpeg",
       },
     ],
   },
@@ -578,68 +562,11 @@ export const data = {
   jerusalem: {
     1: [
       {
-        name: "מערות בית גוברין",
-        id: "j11",
-        rating: 4,
-        price: "free",
-        time: [1.5, 4],
-        description:
-          "גן אלף המערות שמכיל שרידים ארכיאולגיים והמון מוקדי עיניין מונגשים",
-        location: [31.613313787871803, 34.8957401680725],
-
-        workingHours: ["08:30", "16:30"],
-        phone: "02-9227699",
-        parking: true,
-        handicap: true,
-        seasons: ["winter", "spring", "summer", "fall"],
-        level: 1,
-        tags: ["nature"],
-        for: ["couple", "group", "family"],
-        image: "jerusalem/govrid.jpeg",
-      },
-      {
-        name: "הרפת של איתי",
-        id: "j12",
-        rating: 4,
-        price: "free",
-        time: [1.5, 4],
-        description: `במסגרת הביקור תבקרו ברפת,תשמעו על גידול פרות ותוכלו להאכילן`,
-        location: [31.669061782926043, 34.753592879614324],
-        workingHours: ["10:30", "14:30"],
-        phone: "02-9227699",
-        parking: true,
-        handicap: true,
-        seasons: ["winter", "spring", "summer", "fall"],
-        level: 1,
-        tags: ["kids"],
-        for: ["family"],
-        image: "jerusalem/itai.jpeg",
-      },
-      {
-        name: "הדיינר של וילסון",
-        id: "j13",
-        rating: 4,
-        price: "free",
-
-        location: [31.559651605677697, 34.83282777911781],
-        workingHours: ["18:30", "22:00"],
-        phone: "052-48234803",
-        parking: true,
-        handicap: true,
-        seasons: ["winter", "spring", "summer", "fall"],
-        level: 1,
-        tags: ["food"],
-
-        image: "jerusalem/wilson.jpeg",
-      },
-    ],
-    2: [
-      {
         name: "פאר עמק הצביים",
         id: "j21",
         rating: 4.5,
         price: "free",
-        time: [1.5, 4],
+        time: [1.5, 2],
         description:
           "מקום מקסים לטייל ולערוך פיקניק, מתגוררים בפארק 60 סוגי צביים ומיני ציפורים",
         location: [31.789624287007324, 35.202895873046984],
@@ -676,7 +603,7 @@ export const data = {
         description: `בין מנזרים, ורחובות עתיקים ישנו פונדק המעניק חוויה כפרית עם בשרים ומנות מהים`,
         id: "j23",
         rating: 4,
-
+        time: [1, 1],
         location: [31.76631078513908, 35.16159546838507],
         workingHours: ["09:30", "23:00"],
         phone: "054-2349493",
@@ -691,6 +618,7 @@ export const data = {
         name: "כנסיית יוחנן המטביל בעין כרם",
         description: `כנסיית יוחנן המטביל בירושלים, היא כנסייה יוונית-אורתודוקסית קטנה ברובע הנוצרי. הכנסייה מצויה בדרום הרובע הנוצרי`,
         id: "j23",
+        time: [1, 1],
         rating: 4,
         price: "free",
         location: [31.76631078513908, 35.16159546838507],
@@ -704,7 +632,7 @@ export const data = {
         image: "jerusalem/johanan.jpeg",
       },
     ],
-    3: [
+    2: [
       {
         name: "אתר לאומי הקסטל",
         id: "j31",
@@ -740,27 +668,9 @@ export const data = {
         level: 1,
         tags: ["food"],
         for: ["family"],
-        image: "jerusalem/itai.jpeg",
-      },
-      {
-        name: "הדיינר של וילסון",
-        id: "j13",
-        rating: 4,
-        price: "free",
-
-        location: [31.559651605677697, 34.83282777911781],
-        workingHours: ["18:30", "22:00"],
-        phone: "052-48234803",
-        parking: true,
-        handicap: true,
-        seasons: ["winter", "spring", "summer", "fall"],
-        level: 1,
-        tags: ["food"],
-
         image: "jerusalem/rashta.png",
       },
-    ],
-    2: [
+
       {
         name: "הגן הבוטני יורשלים",
         id: "j21",
