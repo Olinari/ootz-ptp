@@ -147,7 +147,7 @@ ${item.description ? item.description : ""}
     list.onscroll = (e) => {
       if (!state.yield) {
         let newindex = Math.floor(
-          (e.target.scrollLeft * -1) /
+          (e.target.scrollLeft * 1) /
             getSize(e.target.querySelector(".trip-list-item")).width
         );
         if (newindex != index) {
