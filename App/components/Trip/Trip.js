@@ -147,13 +147,12 @@ ${item.description ? item.description : ""}
     list.onscroll = (e) => {
       if (!state.yield) {
         let newindex = Math.floor(
-          (e.target.scrollLeft * 1) /
+          (e.target.scrollLeft * -1) /
             getSize(e.target.querySelector(".trip-list-item")).width
         );
-
         document.querySelector(
           `[section="${list.id}"] .trip-list-item-details`
-        ).innerText = newindex;
+        ).innerText = newindex + "," + index;
         if (newindex != index) {
           index = newindex;
           let time = updateTime(list.id, index);
