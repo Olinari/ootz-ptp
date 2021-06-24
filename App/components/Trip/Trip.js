@@ -16,7 +16,6 @@ document.querySelectorAll("link").forEach((link) => {
 if (!exists) {
   var link = document.createElement("link");
   link.href = href;
-
   link.rel = "stylesheet";
   document.getElementsByTagName("head")[0].appendChild(link);
 }
@@ -49,7 +48,6 @@ export const trip = (state, setState) => {
 
 <div class="trip-list">
 ${Object.keys(data[state.dataLocation])
-
   .map((section) => {
     console.log(section);
     let items = data[state.dataLocation][section];
@@ -148,10 +146,10 @@ ${item.description ? item.description : ""}
     list.onscroll = (e) => {
       if (!state.yield) {
         let index = Math.floor(
-          e.target.scrollLeft /
+          Math.abs(e.target.scrollLeft) /
             getSize(e.target.querySelector(".trip-list-item")).width
         );
-
+        console.log(index);
         let time = updateTime(list.id, index);
         if (time) {
           let hours = time[0] + ` שעות ` + ` ו `;
