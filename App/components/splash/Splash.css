@@ -1,14 +1,9 @@
-main:not([page="splash"]) .splash {
-  transform: translate(-10000px, 0px);
-  width: 0px;
-  height: 0px;
-  position: absolute;
-}
-.splash-page {
-  position: absolute;
-  top: 50px;
-  transform: translate(0px, 0px);
-  transition: transform 1s;
+.splash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 .splash-btn {
   border: 1px solid black;
@@ -16,8 +11,16 @@ main:not([page="splash"]) .splash {
   display: flex;
   justify-content: space-between;
   padding: 8px 18px;
-  position: absolute;
-  bottom: 250px;
+  margin: 30px auto;
+
   border-radius: 200px;
-  left: calc(50% - 60px);
+}
+.splash-logo {
+  width: 200px;
+  margin: 40px 0px 0px 0px;
+}
+.spalsh-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

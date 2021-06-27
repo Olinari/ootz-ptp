@@ -1,4 +1,4 @@
-.topbar {
+#top-bar {
   top: 0;
   background-color: white;
   display: flex;
@@ -11,14 +11,42 @@
   border-bottom: 1px solid #e6e6e6;
   color: #162d3d;
   padding: 0px 16px 0px 16px;
-  z-index: 99;
+  z-index: 99999;
 }
 
-.topbar .left-side {
+#top-bar .left-side {
   display: flex;
   justify-content: space-arround;
 }
-[page="splash"] .topbar,
-[page="filters"] .topbar {
+[page="splash"] #top-bar,
+[page="filters"] #top-bar r {
   display: none;
+}
+* {
+  font-family: "Rubik", sans-serif !important;
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+}
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
+body {
+  height: 100vh;
+}
+main {
+  direction: rtl;
+}
+*::-webkit-scrollbar {
+  display: none;
+  user-select: none;
+}
+[page="where"] main[page="where"] {
+  overflow: hidden;
+  height: calc(100vh - 50px);
+}
+body {
+  height: 100vh;
+  overflow: hidden;
 }

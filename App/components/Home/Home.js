@@ -1,5 +1,5 @@
 import * as icons from "./icons.js";
-import { router } from "../../router.js";
+import { router } from "../../../router.js";
 console.log(icons);
 //Append Styles
 var href = "../App/components/Home/home.css";
@@ -25,7 +25,7 @@ export const home = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `
-    <div class="home">
+    <div class="home" id="page">
     <div class="filters flex align-center">
     <div class="container flex align-center">
        <span id="location" class="filter flex">${icons.location}ירושלים והסביבה</span>

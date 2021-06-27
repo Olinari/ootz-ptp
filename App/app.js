@@ -1,6 +1,6 @@
-import { components } from "./components/Components.js";
+import { router } from "./router.js";
 
-import { setState, State } from "./State.js";
+import { setState, State } from "./state.js";
 
 new (function App() {
   const stateObj = State.apply(this, []);
@@ -9,5 +9,6 @@ new (function App() {
   this.events.subscribe(`*`, (state) => {
     console.log("State Change", state);
   });
-  components(this.state, setState, this.events, this);
+
+  router("splash", this.state, setState);
 })();

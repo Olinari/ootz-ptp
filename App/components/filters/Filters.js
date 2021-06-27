@@ -1,5 +1,5 @@
 import * as icons from "./icons.js";
-import { router } from "../../router.js";
+import { router } from "../../../router.js";
 //Append Styles
 
 var exists = false;
@@ -30,7 +30,7 @@ export const filters = (state, setState) => {
   }
   container.insertAdjacentHTML(
     "afterbegin",
-    `<div class="filters">
+    `<div class="filters" id="page">
 
 ${icons.filters}
 

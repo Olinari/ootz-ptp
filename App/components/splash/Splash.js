@@ -1,5 +1,6 @@
 import * as icons from "./icons.js";
-import { router } from "../../router.js";
+import { router } from "../../../router.js";
+import { topBar } from "../TopBar/TopBar.js";
 //Append Styles
 
 var exists = false;
@@ -28,16 +29,20 @@ export const splash = (state, setState) => {
   if (container.querySelector(".splash")) {
     container.querySelector(".splash").remove();
   }
+  topBar(state, setState);
   container.insertAdjacentHTML(
     "afterbegin",
-    `<div class="splash">
-    <img src="./Images/img/boat.png" width="250px">
-    <img src="./Images/img/logos.png" width="200px" style="position:absolute; top:calc(50% - 60px); left:calc(50% - 100px);">
-    <img src="./Images/img/roller.png" width="150px" style="position:absolute; top:0px; left:-1px;">
-    <img src="./Images/img/statue.png" width="96px" style="position:absolute; top:36%;">
-    <img src="./Images/img/tree.png" width="250px" style="position:absolute; bottom:-5px; left:8%;">
+    `<div class="splash" id="page">
+    <img src="./Images/img/boat.png" width="250px" style="position:absolute; top:0px; right:-1px;">
+
+    <img src="./Images/img/roller.png" width="130px" style="position:absolute; top:0px; left:-1px;">
+    <img src="./Images/img/statue.png" width="80px" style="position:absolute; top:36%; right:0px" >
+    <img src="./Images/img/tree.png"  style="position:absolute; bottom:-5px; left:8%; max-height:25%;">
+    <div class="spalsh-content">
+    <img src="./Images/img/logos.png" class="splash-logo">
     <div class="splash-btn flex"><span>בואו נתחיל</span>  <span>${icons.arrow}</span></div>
     </span></div>
+    </div>
 </div>
 
 

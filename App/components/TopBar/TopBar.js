@@ -24,7 +24,7 @@ export const topBar = (state, setState) => {
   container.insertAdjacentHTML(
     "afterbegin",
     `
-<div class="topbar">
+
 
   <div class="left-side">
   ${icons.menu}
@@ -40,7 +40,7 @@ export const topBar = (state, setState) => {
   ${icons.search}
   </div>
   </div>
-</div>
+
     `
   );
 };

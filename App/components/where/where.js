@@ -1,5 +1,5 @@
 import * as icons from "./icons.js";
-import { router } from "../../router.js";
+import { router } from "../../../router.js";
 
 //Append Styles
 var href = "../App/components/where/where.css";
@@ -20,11 +20,12 @@ if (!exists) {
 //icons and images
 
 export const where = (state, setState) => {
+  console.log(state);
   let container = document.querySelector("main");
 
   container.insertAdjacentHTML(
     "afterbegin",
-    `<div class="where">
+    `<div class="where" id="page">
     <div class="where-container">
     <h1>איפה מטיילים?</h1>
     <div id="geocoder"></div>
@@ -59,7 +60,7 @@ export const where = (state, setState) => {
         }, 50);
         field.remove();
       }, 50);
-      router("when");
+      router("when", state, setState);
     });
 
     // Clear results container when search is cleared.

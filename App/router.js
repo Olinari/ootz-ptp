@@ -1,9 +1,23 @@
 import { trip } from "./components/Trip/Trip.js";
+import { topBar } from "./components//TopBar/TopBar.js";
+import { splash } from "./components//splash/Splash.js";
+import { where } from "./components//where/where.js";
+import { when } from "./components//when/when.js";
+import { filters } from "./components//filters/Filters.js";
 
-export function router(page, state, setState) {
+const pages = {
+  trip,
+  topBar,
+  splash,
+  where,
+  when,
+  filters,
+};
+
+export const router = (page, state, setState) => {
+  document.querySelector("#page") && document.querySelector("#page").remove();
+
   document.querySelector("body").setAttribute("page", page);
   document.querySelector("main").setAttribute("page", page);
-  if (page === "trip") {
-    trip(state, setState);
-  }
-}
+  pages[page].apply(null, [state, setState]);
+};

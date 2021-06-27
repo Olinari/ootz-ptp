@@ -32,7 +32,7 @@ export const trip = (state, setState) => {
   }
   container.insertAdjacentHTML(
     "afterbegin",
-    `<div class="trip-page">
+    `<div class="trip-page" id="page">
     <div class="trip-details flex">
     <div>
     <div class="trip-title">
@@ -103,19 +103,21 @@ ${item.description ? item.description : ""}
 </div>
 </div>
     </div>
-    
+
   
     `
       )
       .join("")}
+      <div style="width:500px; min-width:5000px;"></div>
       </div>
+   
  `;
   })
   .join("")}
 
 
 
-    
+
     </div>
     `
   );

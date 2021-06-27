@@ -1,5 +1,6 @@
 import * as icons from "./icons.js";
-import { router } from "../../router.js";
+import { router } from "../../../router.js";
+import { topBar } from "../TopBar/TopBar.js";
 
 //Append Styles
 var href = "../App/components/when/when.css";
@@ -20,6 +21,7 @@ if (!exists) {
 //icons and images
 
 export const when = (state, setState) => {
+  console.log(state);
   let categories = [
     "hiking",
     "historical",
@@ -50,7 +52,7 @@ export const when = (state, setState) => {
 
   container.insertAdjacentHTML(
     "afterbegin",
-    `<div class="when">
+    `<div class="when" id="page">
     
     <div class="when-container">
     <div class="when-head">
