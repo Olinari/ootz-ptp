@@ -29,6 +29,7 @@ export const where = (state, setState) => {
     <div class="where-container">
     <h1>איפה מטיילים?</h1>
     <div id="geocoder"></div>
+    <div id="map"></div>
     <pre style="display:none;" id="result"></pre>
     </div>
     </div>
@@ -36,9 +37,16 @@ export const where = (state, setState) => {
   );
 
   setTimeout(() => {
+    mapboxgl.accessToken =
+      "pk.eyJ1IjoiYXJpZWxsbyIsImEiOiJja29wczQ0OGMwYnB6MnFwa3JudjhsaDd4In0.m9jW-RTzgbx6tEnWJH7l2w";
+    var map = new mapboxgl.Map({
+      container: "map",
+      style: "mapbox://styles/mapbox/streets-v11",
+    });
+
     var geocoder = new MapboxGeocoder({
       accessToken: mapboxgl.accessToken,
-      types: "country,district,region,place,locality,neighborhood,poi",
+      localGeocoder: forwardGeocoder,
       countries: "il",
     });
     geocoder.addTo("#geocoder");
@@ -68,6 +76,7 @@ export const where = (state, setState) => {
   });
 
   function getRegion(place) {
+    console.log(place);
     var name = "ישראל";
     if (place.place_name.includes("מחוז תל אביב")) {
       name = "איזור תל אביב";
@@ -89,6 +98,66 @@ export const where = (state, setState) => {
       name = "איזור המרכז";
       state.dataLocation = "center";
     }
+    if (place.place_name.includes("מטה יהודה")) {
+      name = "מטה יהודה";
+      state.dataLocation = "yehuda";
+    }
     return name;
   }
 };
+var customData = {
+  features: [
+    {
+      type: "Feature",
+      properties: {
+        title: "מטה יהודה",
+      },
+      geometry: {
+        coordinates: [-87.637596, 41.940403],
+        type: "Point",
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        title: "עמק האלה",
+      },
+      geometry: {
+        coordinates: [-87.603735, 41.829985],
+        type: "Point",
+      },
+    },
+    {
+      type: "Feature",
+      properties: {
+        title: "עין חמד",
+      },
+      geometry: {
+        coordinates: [-87.622554, 41.882534],
+        type: "Point",
+      },
+    },
+  ],
+  type: "FeatureCollection",
+};
+function forwardGeocoder(query) {
+  var matchingFeatures = [];
+  for (var i = 0; i < customData.features.length; i++) {
+    var feature = customData.features[i];
+    // Handle queries with different capitalization
+    // than the source data by calling toLowerCase().
+    if (
+      feature.properties.title.toLowerCase().search(query.toLowerCase()) !== -1
+    ) {
+      feature["place_name"] = feature.properties.title;
+
+      feature.address = "825";
+      feature["center"] = feature.geometry.coordinates;
+      feature["place_type"] = ["park"];
+      matchingFeatures.push(feature);
+    }
+  }
+  return matchingFeatures;
+}
+
+// Add the control to the map.

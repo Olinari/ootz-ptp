@@ -19,7 +19,7 @@ if (!exists) {
 //icons and images
 
 export const topBar = (state, setState) => {
-  let container = document.querySelector("#top-bar");
+  let container = document.querySelector("#bottom-bar");
 
   container.insertAdjacentHTML(
     "afterbegin",
@@ -27,17 +27,17 @@ export const topBar = (state, setState) => {
 <div class="bottom-bar">
 
   <div class="left-side">
-  ${icons.menu}
+  ${icons.savedTrips}
   </div>
 
   <div class="middle-side flex row align-center">
   <div class="logo">
- ${icons.logo}
+ ${icons.myAccount}
 </div>
   </div>
 
   <div class="right-side flex row align-center">
-  ${icons.search}
+  ${icons.assembleTrip}
   </div>
   </div>
 </div>
