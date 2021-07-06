@@ -101,6 +101,7 @@ main[page="filters"] #top-bar {
 #tags {
   display: flex;
   margin: 20px;
+  overflow: scroll;
 }
 .cat-tag {
   display: flex;
@@ -114,4 +115,7 @@ main[page="filters"] #top-bar {
   align-self: flex-start;
   font-weight: 600;
   margin-top: 10px;
+}
+.cat-tag.selected {
+  background-color: var(--main);
 }

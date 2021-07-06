@@ -34,7 +34,7 @@ main:not([page="when"]) .when {
   width: fit-content;
   padding: 12px 36px;
   border-radius: 100px;
-  bottom: 128px;
+  bottom: 30px;
   position: absolute;
   z-index: 9999;
   cursor: pointer;
@@ -77,5 +77,5 @@ main:not([page="when"]) .when {
 .load .loader {
   opacity: 1;
   position: absolute;
-  transform: translate(30px, -120px) scale(0.5);
+  transform: translate(30px, -140px) scale(0.5);
 }

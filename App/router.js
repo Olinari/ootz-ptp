@@ -16,7 +16,7 @@ const pages = {
 
 export const router = (page, state, setState) => {
   document.querySelector("#page") && document.querySelector("#page").remove();
-
+  console.log(state);
   document.querySelector("body").setAttribute("page", page);
   document.querySelector("main").setAttribute("page", page);
   pages[page].apply(null, [state, setState]);

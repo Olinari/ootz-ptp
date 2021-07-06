@@ -86,7 +86,7 @@ export const filters = (state, setState) => {
     const tags = new Vue({
       el: `#tags`,
       data: {
-        tags: ["נגיש לנכים", "כשרות", "צמחוני", "טבעוני"],
+        tags: ["נגיש לנכים", "כשרות", "צמחוני", "טבעוני", "נגיש לעגלות"],
       },
 
       template: `
@@ -105,10 +105,27 @@ export const filters = (state, setState) => {
     const costRange = document.querySelector("#cost-range");
     costRange.onchange = (e) => {
       timeAndMoney.cost.value = e.target.value;
+      state.cost = timeAndMoney.cost.value;
     };
+    const backBtn = document.querySelector(".trip-btn.watch");
+    backBtn.onclick = (e) => {
+      router("trip", state, setState);
+    };
+
+    const allTags = document.querySelectorAll(".cat-tag");
+    allTags.forEach((tag) => {
+      tag.onclick = () => {
+        if (tag.classList.contains("selected")) {
+          tag.classList.remove("selected");
+        } else {
+          tag.classList.add("selected");
+        }
+      };
+    });
     const timeRange = document.querySelector("#time-range");
     timeRange.onchange = (e) => {
       timeAndMoney.time.value = e.target.value;
+      state.duration = timeAndMoney.cost.value;
     };
     const clear = document.querySelector("#clear-filters");
     clear.onclick = () => {

@@ -187,7 +187,7 @@ ${item.description ? item.description : ""}
   document.querySelectorAll(".trip-btn").forEach(
     (trb) =>
       (trb.onclick = (e) => {
-        router("filters");
+        router("filters", state, setState);
       })
   );
 

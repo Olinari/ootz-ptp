@@ -39,10 +39,6 @@ export const where = (state, setState) => {
   setTimeout(() => {
     mapboxgl.accessToken =
       "pk.eyJ1IjoiYXJpZWxsbyIsImEiOiJja29wczQ0OGMwYnB6MnFwa3JudjhsaDd4In0.m9jW-RTzgbx6tEnWJH7l2w";
-    var map = new mapboxgl.Map({
-      container: "map",
-      style: "mapbox://styles/mapbox/streets-v11",
-    });
 
     var geocoder = new MapboxGeocoder({
       accessToken: mapboxgl.accessToken,
