@@ -98,6 +98,7 @@
 .nowrap {
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  white-space: nowrap;
 }
 .wrap {
   -webkit-flex-wrap: wrap;

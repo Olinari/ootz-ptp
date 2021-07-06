@@ -4,6 +4,114 @@ main:not([page="filters"]) .filters {
   height: 0px;
   position: absolute;
 }
-.ggg {
-  transform: translate(28px, 12px);
+main[page="filters"] #top-bar {
+  display: none;
+}
+.filter-container {
+  width: 100vw;
+}
+.filters-bar {
+  width: calc(100vw - 40px);
+  padding: 16px 20px;
+  border-bottom: 1px solid #0000001c;
+}
+
+#clear-filters {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.counter-container {
+  width: calc(100vw - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+}
+.res {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+}
+.counter-raw {
+  display: flex;
+  width: calc(100vw - 60px);
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter-container * {
+  user-select: none;
+}
+.sliders-container {
+  width: calc(100% - 40px); /* Width of the outside container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.slide {
+  width: 100%;
+  align-items: center;
+}
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 85%; /* Full-width */
+  height: 5px; /* Specified height */
+  margin: 20px 20px;
+  background: #eeeeee; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 22px; /* Set a specific slider handle width */
+  height: 22px; /* Slider handle height */
+  background: var(--main); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 100px;
+}
+
+.slider::-moz-range-thumb {
+  width: 22px; /* Set a specific slider handle width */
+  height: 22px; /* Slider handle height */
+  background: var(--main); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 100px;
+}
+#tags {
+  display: flex;
+  margin: 20px;
+}
+.cat-tag {
+  display: flex;
+  margin: 12px;
+  background: #eeeeee;
+  border-radius: 100px;
+  padding: 9px 12px;
+  white-space: nowrap;
+}
+.range-label {
+  align-self: flex-start;
+  font-weight: 600;
+  margin-top: 10px;
 }

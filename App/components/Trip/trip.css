@@ -152,7 +152,11 @@ main:not([page="trip"]) .trip-page {
   margin-top: 4px;
   border-radius: 200px;
 }
-time {
-  font-weight: 300;
-  font-size: 14;
+.trip-btn.watch {
+  max-width: 100px;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px 5px 16px;
+  margin: auto;
 }

@@ -10,5 +10,5 @@ new (function App() {
     console.log("State Change", state);
   });
 
-  router("splash", this.state, setState);
+  router("filters", this.state, setState);
 })();
