@@ -76,9 +76,11 @@ export const filters = (state, setState) => {
         <span class="range-label">תקציב</span>
         <div class="slide flex justify-center"><span class="nowrap">$</span><input  type="range" :min="cost.min" :max="cost.max" :value="cost.value" class="slider" id="cost-range"><span class="nowrap">$$$</span></div>
         <span class="range-label">אורך הטיול</span>
-        <div class="slide flex justify-center"><span class="nowrap">טיול קליל</span><input  type="range" :min="difficulty.min" :max="difficulty.max" :value="difficulty.value" class="slider" id="difficulty-range"><span class="nowrap">מטיבי לכת</span></div>
-        <span class="range-label">דרגת קושי</span>
         <div class="slide flex justify-center"><span class="nowrap">עד שעתיים</span><input  type="range" :min="time.min" :max="time.max" :value="time.value" class="slider" id="time-range"><span class="nowrap">יום שלם</span></div>
+
+        <span class="range-label">דרגת קושי</span>
+        <div class="slide flex justify-center"><span class="nowrap">טיול קליל</span><input  type="range" :min="difficulty.min" :max="difficulty.max" :value="difficulty.value" class="slider" id="difficulty-range"><span class="nowrap">מטיבי לכת</span></div>
+     
   
         </div>`,
     });
@@ -132,8 +134,9 @@ export const filters = (state, setState) => {
       participants.adults = 2;
       participants.children = 0;
       participants.babies = 0;
-      timeAndMoney.cost.value = 0;
-      timeAndMoney.time.value = 0;
+      timeAndMoney.cost.value = 25;
+      timeAndMoney.time.value = 12;
+      timeAndMoney.difficulty.value = 12;
     };
   });
 };
