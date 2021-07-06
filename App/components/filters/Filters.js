@@ -135,8 +135,8 @@ export const filters = (state, setState) => {
       participants.children = 0;
       participants.babies = 0;
       timeAndMoney.cost.value = 25;
-      timeAndMoney.time.value = 12;
-      timeAndMoney.difficulty.value = 12;
+      timeAndMoney.time.value = 3;
+      timeAndMoney.difficulty.value = 3;
     };
   });
 };
